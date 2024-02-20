@@ -20,6 +20,18 @@
         gap: 5rem; 
 }
 
+.finanzas-text-grid h3{
+    text-align: right;
+    
+}
+
+.finanzas-text-grid a{
+    
+    color: #0F1416;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
 .finanzas-grid{
     margin-top:-50px;
     padding: 2rem;
@@ -29,8 +41,8 @@
 }
 
 .finanzas-image{
-    width: 370px;
-    height: 300px;
+    width: 550px;
+    height: 470px;
 
 }
 
@@ -40,6 +52,93 @@
 }
 
 .finanzas-post-image{
-    width: 280px;
-    height: 200px;
+    width: 230px;
+    height: 150px;
 }
+
+.right-grid a{
+color: #0F1416;
+text-decoration: none;
+font-size: 1.2rem;
+
+}
+
+.right-grid p{
+    color: #0F1416;
+    text-decoration: none;
+    font-size: .8rem;
+    }
+
+    .finanzas-grid a{
+        color: #0F1416;
+        text-decoration: none;
+        margin-right: 30px;
+    }
+
+    .finanzas-grid p{
+        color: #0F1416;
+        text-decoration: none;
+        font-size: .9rem;
+        
+        
+    }
+
+    @media screen and (min-width:360px) and (max-width:736px) {
+     
+        .finanzas-cont{
+            width: auto;
+            padding-left: 20px;
+            padding-right: 20px;
+        
+        }
+
+        .finanzas-text-grid{
+            grid-template-columns: repeat(1,minmax(0,1fr));
+    padding-left:10px;
+    padding-right: 10px; 
+        }
+
+        .finanzas-grid{
+            grid-template-columns: repeat(1,minmax(0,1fr));
+    padding-left:10px;
+    padding-right: 10px; 
+                
+        }
+
+        .right-grid{
+            grid-template-columns: repeat(1,minmax(0,1fr));
+            padding-left:10px;
+            padding-right: 10px; 
+        }
+    }
+
+    @media only screen and (min-width:1400px) {
+
+        .finanzas-cont{
+            margin: 0 auto;
+          overflow: hidden;
+          padding-right: 160px;
+          padding-left: 160px;
+        
+        }
+
+        .finanzas-post-image{
+            width: 300px;
+            height: 200px;
+        }
+
+        .finanzas-image{
+            width: 710px;
+            height: 500px;
+        
+        }
+
+        .right-grid p{
+            margin-right: 50px;
+            }
+
+            .right-grid h1{
+                margin-right: 50px;
+                }
+    }
+   

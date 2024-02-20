@@ -10,10 +10,10 @@ import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
     <div class="finanzas-cont">
         <div class="finanzas-text-grid">
             <h1>Finanzas</h1>
-            <h3>Ver más > </h3>
+            <h3><a href="#">Ver más ></a> </h3>
         </div>
         <div class="finanzas-grid">
-            <div>
+            <div class="izq-grid">
                 <Image src={myImage} alt="" class="finanzas-image" />
                 <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
                 <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
@@ -25,7 +25,7 @@ import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
                     <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
                     <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
 
-
+                    
                     <Image src={myImage} alt="" class="finanzas-post-image" />
                     <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
                     <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>

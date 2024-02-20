@@ -190,16 +190,16 @@ margin-left: -20px;
     .main-cont{
         margin: 0 auto;
       overflow: hidden;
-      padding-right: 150px;
-      padding-left: 150px;
+      padding-right: 160px;
+      padding-left: 160px;
       
     }
 
     .news-cont{
         margin: 0 auto;
       overflow: hidden;
-      padding-right: 150px;
-      padding-left: 150px;
+      padding-right: 160px;
+      padding-left: 160px;
     }
    
 }
