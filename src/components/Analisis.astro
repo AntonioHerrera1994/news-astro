@@ -1,0 +1,100 @@
+---
+const Firstpost = await Astro.glob('../pages/posts/crypto-1.md');
+
+import '../styles/analisis.css'
+import {Image} from 'astro:assets';
+import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
+---
+
+<section class="analisis">
+    <div class="analisis-cont">
+        <div class="analisis-text-grid">
+            <h1>Análisis Financiero</h1>
+            <h3>Ver más > </h3>
+        </div>
+        <div class="analisis-grid">
+
+            <div class="analisis-post">
+              
+                <Image src={myImage} alt="" class="analisis-image" />
+                <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+
+                <div class="sub-grid">
+                    <Image src={myImage} alt="" class="subgrid-image" />
+                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                </div>
+
+                <div class="sub-grid">
+                    <Image src={myImage} alt="" class="subgrid-image" />
+                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                </div>
+
+                <div class="sub-grid">
+                    <Image src={myImage} alt="" class="subgrid-image" />
+                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                </div>
+
+                <div class="sub-grid">
+                    <Image src={myImage} alt="" class="subgrid-image" />
+                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                </div>
+                
+            </div>
+            
+                <div class="analisis-post">
+                    
+                    <Image src={myImage} alt="" class="analisis-image" />
+                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+
+                    <div class="sub-grid">
+                        <Image src={myImage} alt="" class="subgrid-image" />
+                        <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                    </div>
+    
+                    <div class="sub-grid">
+                        <Image src={myImage} alt="" class="subgrid-image" />
+                        <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                    </div>
+    
+                    <div class="sub-grid">
+                        <Image src={myImage} alt="" class="subgrid-image" />
+                        <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                    </div>
+
+                    <div class="sub-grid">
+                        <Image src={myImage} alt="" class="subgrid-image" />
+                        <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                    </div>
+                </div>
+            
+            
+                <div class="analisis-post">
+                  
+                    <Image src={myImage} alt="" class="analisis-image" />
+                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+
+                    <div class="sub-grid">
+                        <Image src={myImage} alt="" class="subgrid-image" />
+                        <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                    </div>
+    
+                    <div class="sub-grid">
+                        <Image src={myImage} alt="" class="subgrid-image" />
+                        <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                    </div>
+    
+                    <div class="sub-grid">
+                        <Image src={myImage} alt="" class="subgrid-image" />
+                        <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                    </div>
+
+                    <div class="sub-grid">
+                        <Image src={myImage} alt="" class="subgrid-image" />
+                        <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                    </div>
+                </div>
+           
+        </div>
+    </div>
+    
+</section>

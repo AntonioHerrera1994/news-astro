@@ -1,0 +1,86 @@
+
+.crypto{
+    background-color: #0F1416;
+    padding-bottom: 80px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.crypto-cont{
+    margin: 0 auto;
+  overflow: hidden;
+  padding-right: 50px;
+  padding-left: 50px;
+
+}
+
+.crypto-text-grid{
+    padding: 2rem;
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+        gap: 5rem; 
+}
+
+.crypto-grid{
+    margin-top:-50px;
+    padding: 2rem;
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+        
+}
+
+.crypto-text-grid h3{
+    color:#DEE1D4;
+    text-align: right;
+
+}
+
+.crypto-text-grid h1{
+    color:#DEE1D4;
+
+}
+
+.crypto-image{
+    width: 640px;
+    height: 340px;
+
+}
+
+.crypto-post-grid{
+    
+    display:grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+}
+
+.post-crypto-grid{
+   
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    margin-bottom: 35px;
+}
+
+.crypto-image-post{
+    width: 230px;
+    height: 140px;
+}
+
+.rigt-crypto{
+margin-left:80px ;
+}
+
+.post-crypto-grid a{
+    color: #DEE1D4;
+    font-size: 1.1rem;
+    text-decoration: none;
+    
+}
+
+.post-crypto-grid p{
+    color: #DEE1D4;
+    font-size: .8rem;
+    
+}
+
+.text-crypto{
+    margin-top: -31px;
+}

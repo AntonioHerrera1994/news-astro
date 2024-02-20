@@ -1,0 +1,45 @@
+.finanzas{
+    background-color: #e8eadf;
+    padding-bottom: 80px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.finanzas-cont{
+    margin: 0 auto;
+  overflow: hidden;
+  padding-right: 50px;
+  padding-left: 50px;
+
+}
+
+.finanzas-text-grid{
+    padding: 2rem;
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+        gap: 5rem; 
+}
+
+.finanzas-grid{
+    margin-top:-50px;
+    padding: 2rem;
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+        
+}
+
+.finanzas-image{
+    width: 370px;
+    height: 300px;
+
+}
+
+.right-grid{
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+.finanzas-post-image{
+    width: 280px;
+    height: 200px;
+}

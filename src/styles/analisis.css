@@ -1,0 +1,54 @@
+.analisis{
+    background-color: #e8eadf;
+    padding-bottom: 80px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.analisis-cont{
+    margin: 0 auto;
+  overflow: hidden;
+  padding-right: 50px;
+  padding-left: 50px;
+
+}
+
+.analisis-text-grid{
+    padding: 2rem;
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+        gap: 5rem; 
+}
+
+.analisis-grid{
+    margin-top:-50px;
+    padding: 2rem;
+    display:grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+        
+}
+
+
+
+.analisis-text-grid h3{
+    text-align: right;
+}
+
+.analisis-image{
+    width: 370px;
+    height: 300px;
+
+}
+
+.sub-grid{
+    
+    display:grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+        margin-top: 50px;
+}
+
+.subgrid-image{
+    width: 180px;
+    height: 140px;
+}
+

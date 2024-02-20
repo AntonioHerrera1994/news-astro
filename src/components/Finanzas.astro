@@ -1,0 +1,47 @@
+---
+const Firstpost = await Astro.glob('../pages/posts/crypto-1.md');
+
+import '../styles/finanzas.css'
+import {Image} from 'astro:assets';
+import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
+---
+
+<section class="finanzas">
+    <div class="finanzas-cont">
+        <div class="finanzas-text-grid">
+            <h1>Finanzas</h1>
+            <h3>Ver más > </h3>
+        </div>
+        <div class="finanzas-grid">
+            <div>
+                <Image src={myImage} alt="" class="finanzas-image" />
+                <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
+            </div>
+            
+            <div class="right-grid">
+                <div>
+                    <Image src={myImage} alt="" class="finanzas-post-image" />
+                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                    <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
+
+
+                    <Image src={myImage} alt="" class="finanzas-post-image" />
+                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                    <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
+                </div>
+
+                <div>
+                    <Image src={myImage} alt="" class="finanzas-post-image" />
+                <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
+
+                <Image src={myImage} alt="" class="finanzas-post-image" />
+                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                    <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
