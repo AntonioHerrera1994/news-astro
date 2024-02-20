@@ -11,6 +11,7 @@ import Finanzas from '../components/Finanzas.astro';
 import MidleBanner from '../components/MidleBanner.astro';
 import Tecnologia from '../components/Tecnologia.astro';
 
+
 import '../styles/global.css';
 
 const { pageTitle } = Astro.props;
@@ -33,6 +34,7 @@ const { pageTitle } = Astro.props;
 	<body>
 		
 		<Navigation />
+		
 		<Mainhead />
 		<Leido />	
 		<PlanktonW />
@@ -44,7 +46,11 @@ const { pageTitle } = Astro.props;
 
 		<Footer />
 		
-
+		<script>
+			document.querySelector('.hamburger').addEventListener('click', () => {
+			  document.querySelector('.nav-links').classList.toggle('expanded');
+			});
+		  </script>
 	</body>
   </html>
 	</body>

@@ -30,7 +30,22 @@ html {
     padding-left: 75px;
 }
 
-h1,h2,h3,h4,p{
+h1,h2,h3,h4,p, a{
   font-family: 'Helvetica', sans-serif;
   
 }
+
+
+
+@media screen and (min-width:360px) and (max-width:736px) {
+  /*Global */
+  .container {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+      }
+  
+      .wrapper {
+        flex-direction: column;
+      }
+    }

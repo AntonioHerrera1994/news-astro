@@ -13,7 +13,33 @@ import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
             <h3>Ver más > </h3>
         </div>
         <div class="tec-grid">
+            <div class="tec-post">
+                <Image src={myImage} alt="" class="finanzas-post-image" />
+                <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
+                <h4>{Firstpost.map((post) =><p>{post.frontmatter.author} | 5 min read</p>)}</h4>
+            </div>
 
+            <div class="tec-post">
+                <Image src={myImage} alt="" class="finanzas-post-image" />
+                <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
+                <h4>{Firstpost.map((post) =><p>{post.frontmatter.author} | 5 min read</p>)}</h4>
+            </div>
+
+            <div class="tec-post">
+                <Image src={myImage} alt="" class="finanzas-post-image" />
+                <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
+                <h4>{Firstpost.map((post) =><p>{post.frontmatter.author} | 5 min read</p>)}</h4>
+            </div>
+
+            <div class="tec-post">
+                <Image src={myImage} alt="" class="finanzas-post-image" />
+                <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
+                <h4>{Firstpost.map((post) =><p>{post.frontmatter.author} | 5 min read</p>)}</h4>
+            </div>
         </div>
     </div>
 

@@ -1,9 +1,9 @@
 .pw{
     background-color: #e8eadf;
-
     padding-bottom: 20px;
     margin-left: -8px;
     margin-right: -8px;
+    margin-top: -20px;
 }
 
 .pw-cont{
@@ -26,6 +26,7 @@
   display:grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
       gap: 2rem;
+      margin-top: -40px;
       
 }
 
@@ -37,4 +38,62 @@
     display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.pw-pst a{
+  color: #0F1416;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.pw-text-grid a{
+  font-size: .8rem;
+  color: #0F1416;
+  text-decoration: none;
+}
+
+.pw-image{
+  width: 580px;
+    height: 380px;
+}
+
+@media screen and (min-width:360px) and (max-width:736px) {
+  .pw-cont{
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .pw-grid{
+    grid-template-columns: repeat(1,minmax(0,1fr));
+padding-left:10px;
+padding-right: 10px;
+  }
+
+  .pw-image{
+    width: 400px;
+      height: 400px;
+      margin-left: 17px;
+  }
+
+ .pw-pst{
+  text-align: center;
+ }
+}
+
+
+@media only screen and (min-width:1400px) {
+  .pw-cont{
+    margin: 0 auto;
+  overflow: hidden;
+  padding-right: 150px;
+  padding-left: 150px;
+
+}
+
+.pw-image{
+  width: 720px;
+    height: 410px;
+}
+
 }

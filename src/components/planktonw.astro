@@ -11,15 +11,15 @@ import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
     <div class="pw-cont">
         <div class="pw-text-grid">
             <h1>Plankton Wallet</h1>
-            <h3>Ver más > </h3>
+            <h3><a href="#">Ver más > </a></h3>
         </div>
         <div class="pw-grid">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/2d5s_jLZwsk?si=6kPpAwQdVSLeVVVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <Image src={myImage} alt="" class="pw-image" />
 
             <div class="pw-pst">
                 <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
                 <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
-                <h4>{Secondpost.map((post) =><p>{post.frontmatter.category} | 5 min read</p>)}</h4>
+                <h4>{Firstpost.map((post) =><h4>{post.frontmatter.category} | 5 min read</h4>)}</h4>
             </div>
         </div>
 
