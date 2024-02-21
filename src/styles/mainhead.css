@@ -196,14 +196,14 @@ margin-left: -20px;
 .first-image{
   margin:0 auto;
   height: 290px;
-  width: 380px;
+  width: 340px;
 }
 
 .post-grid{
-    padding: rem;
+   
   display:grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
-      gap: 2rem;
+    
       margin-left: 0;
       margin-top: 0;
 }
