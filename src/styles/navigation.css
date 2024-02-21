@@ -37,6 +37,8 @@
   background-color: #DEE1D4;
 }
 
+
+
 .nav-links {
   width: 100%;
   background-color: #DEE1D4;
@@ -131,12 +133,13 @@ color: #97AAA0;
 
     .header-img{
         margin-top: -25px;
-        width: 40%;
-        margin-left: 50px;
+        width: 50%;
+        margin-left: 10px;
     }
 
     .nav-links {
       top: 100px;
+      margin-top: 15px;
       left: 0;
       position: absolute;
       padding: 10px 100px;
@@ -156,17 +159,12 @@ color: #97AAA0;
     }
 
     .nav-links .busqueda-menu{
-      margin-left: -50px;
-      padding-left: 0;
-      padding-right: 0;
+      display: none;
       
     }
 
     .nav-links .suscribirme-menu{
-      color: #0F1416!important;
-      margin-left: -50px;
-      padding-left: 0;
-      padding-right: 0;
+      display: none;
     }
   
   }
