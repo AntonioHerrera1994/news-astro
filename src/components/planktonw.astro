@@ -17,7 +17,7 @@ import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
 
             <div class="pw-pst">
                 <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-                <p>{Firstpost.map((post) =><p>{post.frontmatter.slot}</p>)}</p>
+                <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
                 <h4>{Firstpost.map((post) =><h4>{post.frontmatter.category} | 5 min read</h4>)}</h4>
             </div>
         </div>

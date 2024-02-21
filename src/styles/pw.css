@@ -38,10 +38,12 @@
     text-align: right;
 }
 
+
 .pw-pst p{
-    display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  column-count: 2;
+column-gap: 20px;
+text-align: justify;
+
 }
 
 .pw-pst a{
@@ -56,14 +58,17 @@
   text-decoration: none;
 }
 
+/*************** Imagen***************/
+
 .pw-first-image{
   width: 580px;
-  height: 380px;
+  height: 414px;
   background-image: url('../assets/pw/pw1.png');
     background-size: cover;
     background-position: center;
 }
 
+/*************** Movil***************/
 
 @media screen and (min-width:360px) and (max-width:736px) {
   .pw-cont{
@@ -78,17 +83,13 @@ padding-left:10px;
 padding-right: 10px;
   }
 
-  .pw-image{
-    width: 400px;
-      height: 400px;
-      margin-left: 17px;
-  }
 
  .pw-pst{
   text-align: center;
  }
 }
 
+/*************** Pantalla grande ***************/
 
 @media only screen and (min-width:1400px) {
   .pw-cont{
@@ -99,9 +100,10 @@ padding-right: 10px;
 
 }
 
-.pw-image{
-  width: 720px;
-    height: 410px;
+.pw-first-image{
+  width: 750px;
+  height: 420px;
 }
+
 
 }
