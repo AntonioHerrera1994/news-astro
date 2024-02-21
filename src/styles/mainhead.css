@@ -104,7 +104,7 @@ margin-left: -20px;
 
 .postnews-grid h4{
     color: #DEE1D4;
-    font-size: .8rem;
+    font-size: .7rem;
 }
 
 
@@ -155,7 +155,7 @@ margin-left: -20px;
 
 @media (max-width:768px) {
     .main-cont{
-      margin-top: -20px;
+      margin-top: -25px;
         width: auto;
         padding-left: 20px;
         padding-right: 20px;
@@ -206,7 +206,7 @@ margin-left: -20px;
   display:grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
       gap: 2rem;
-      margin-left: -20px;
+      margin-left: -23px;
       margin-top: -33px;
 
 }
