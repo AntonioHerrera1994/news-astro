@@ -137,9 +137,10 @@ color: #97AAA0;
     }
 
     .header-img{
-        margin-top: -10px;
-        width: 100%;
-        margin-left: 10px;
+        margin-top: -50px;
+        height: 120px;
+        width:120px;
+        margin-left: 0;
     }
 
     .nav-links {
@@ -173,7 +174,7 @@ color: #97AAA0;
 
     
     .movil-susc{
-    
+      margin-top: -5px;
       color: #DEE1D4;
       font-size: .9rem;
       border: solid;
@@ -181,13 +182,14 @@ color: #97AAA0;
       border-color:#97AAA0;
       background-color: #97AAA0;
       border-radius: 25px;
-      padding: 11px 15px;
+      padding: 11px 8px;
+      margin-bottom: 42px;
       
     }
 
     .bi-search{
-      
-      margin-bottom: 40px;
+      margin-left: 25px;
+      margin-bottom: 45px;
       font-size: .9rem;
       border: solid;
       border-width: 1px;
