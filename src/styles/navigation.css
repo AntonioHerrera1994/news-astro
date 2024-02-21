@@ -142,7 +142,7 @@ color: #97AAA0;
         margin-top: -62px;
         height: 140px;
         width:140px;
-        margin-left: 0;
+        margin-left: -5px;
     }
 
     .nav-links {
@@ -185,13 +185,14 @@ color: #97AAA0;
       background-color: #97AAA0;
       border-radius: 25px;
       padding: 11px 8px;
-      margin-bottom: 42px;
-      margin-right: -25px;
+      margin-bottom: 45px;
+      margin-right: -22px;
       
     }
 
     .bi-search{
       margin-left: 40px;
+      margin-right: -10px;
       margin-bottom: 45px;
       font-size: .9rem;
       border: solid;
