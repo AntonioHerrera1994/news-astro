@@ -139,7 +139,7 @@ color: #97AAA0;
     }
 
     .header-img{
-        margin-top: -60px;
+        margin-top: -50px;
         height: 140px;
         width:140px;
         margin-left: -8px;
@@ -156,7 +156,7 @@ color: #97AAA0;
     }
 
     .hamburger{
-     
+     margin-left: 15px;
     }
 
     .nav-links a{
@@ -185,7 +185,7 @@ color: #97AAA0;
       background-color: #97AAA0;
       border-radius: 25px;
       padding: 11px 8px;
-      margin-bottom: 50px;
+      margin-bottom: 57px;
       margin-right: -22px;
       
     }
@@ -200,7 +200,7 @@ color: #97AAA0;
       border-color:#DEE1D4;
       border-radius: 25px;
       padding: 7px;
-      margin-bottom: 50px;
+      margin-bottom: 55px;
     
     }
   
