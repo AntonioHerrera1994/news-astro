@@ -122,7 +122,7 @@ color: #97AAA0;
   }
 }
 
-  @media screen and (min-width:360px) and (max-width:736px) {
+@media (max-width:768px) {
 
     .content{
       width: auto;
@@ -131,14 +131,14 @@ color: #97AAA0;
     }
 
     .head-grid{
-      grid-template-columns: repeat(1,minmax(0,1fr));
+      grid-template-columns: repeat(4,minmax(0,1fr));
       padding-left:10px;
        padding-right: 10px;
     }
 
     .header-img{
         margin-top: -10px;
-        width: 30%;
+        width: 100%;
         margin-left: 10px;
     }
 
@@ -153,8 +153,7 @@ color: #97AAA0;
     }
 
     .hamburger{
-      margin-top: -135px;
-      margin-left: 350px;
+     
     }
 
     .nav-links a{
@@ -174,7 +173,7 @@ color: #97AAA0;
 
     
     .movil-susc{
-      margin-top: -110px;
+    
       color: #DEE1D4;
       font-size: .9rem;
       border: solid;
@@ -183,13 +182,11 @@ color: #97AAA0;
       background-color: #97AAA0;
       border-radius: 25px;
       padding: 11px 15px;
-      margin-right: 125px;
-      margin-bottom: 70px;
-      margin-left: 200px;
+      
     }
 
     .bi-search{
-      margin-top: -76px;
+      
       margin-bottom: 40px;
       font-size: .9rem;
       border: solid;
@@ -197,8 +194,7 @@ color: #97AAA0;
       border-color:#DEE1D4;
       border-radius: 25px;
       padding: 7px;
-      margin-right: 240px;
-      margin-left: 150px;
+    
     }
   
   }
