@@ -17,13 +17,12 @@
     padding: 2rem;
   display:grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
-      gap: 2rem;
+      gap: 7rem;
       
 }
 
-.leido-image{
-    width: 270px;
-    height: 310px;
+.text-grid h1{
+    font-size: 1.8rem;
 }
 
 .text-grid{
@@ -100,6 +99,34 @@ select{
     margin-top: 25px;
 }
 
+/************** Imagenes ***************/
+
+.leido-first-image{
+    background-image: url('../assets/crypto/Crypto1.png');
+    background-size: cover;
+    background-position: center;
+    height: 340px;
+    width: 280px;
+}
+
+.leido-second-image{
+    background-image: url('../assets/crypto/Crypto2.webp');
+    background-size: cover;
+    background-position: center;
+    height: 340px;
+    width: 280px;
+}
+
+.leido-third-image{
+    background-image: url('../assets/analisis/analisis1.png');
+    background-size: cover;
+    background-position: center;
+    height: 340px;
+  width: 280px;
+}
+
+/************** Movil ***************/
+
 @media screen and (min-width:360px) and (max-width:736px) {
     .leido-cont{
         width: auto;
@@ -127,24 +154,32 @@ select{
     margin-right:30px;
       }
 
-      .leido-image{
-        width: 400px;
-        height: 400px;
-    }
-
+    
     .currency{
         margin-left: 0;
         margin-top: -10px;
     }
+
+    .leido-first-image{
+        height: 290px;
+        width: 380px;
+    }
+    
+    .leido-second-image{
+        height: 290px;
+        width: 380px;
+    }
+    
+    .leido-third-image{
+        height: 290px;
+        width: 380px;
+    }
 }
 
+/************** Pantalla grande ***************/
 
 @media only screen and (min-width:1400px) {
-    .leido-image{
-        width: 340px;
-        height: 400px;
-        
-    }
+ 
 
     .currency{
         margin-left: 400px;
@@ -156,6 +191,20 @@ select{
       overflow: hidden;
       padding-right: 160px;
       padding-left: 160px;
+    }
+
+    .leido-first-image{
+        height: 360px;
+        width: 310px;
+    }
     
+    .leido-second-image{
+        height: 360px;
+        width: 310px;
+    }
+    
+    .leido-third-image{
+        height: 360px;
+        width: 310px;
     }
 }

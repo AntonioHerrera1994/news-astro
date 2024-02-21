@@ -19,21 +19,21 @@ import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
                 
                <div class="pos-grid">
                 <div>
-                    <Image src={myImage} alt="" class="leido-image" />
+                    <div class="leido-first-image"></div>
                     <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
                     <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
                     <h4>{Secondpost.map((post) =><p>{post.frontmatter.category} | 5 min read</p>)}</h4>
                 </div>
 
                 <div>
-                    <Image src={myImage} alt="" class="leido-image" />
+                    <div class="leido-second-image"></div>
                     <h1>{Secondpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
                     <p>{Secondpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
                     <h4>{Secondpost.map((post) =><p>{post.frontmatter.category} | 5 min read</p>)}</h4>
                 </div>
 
                 <div>
-                    <Image src={myImage} alt="" class="leido-image" />
+                    <div class="leido-third-image"></div>
                     <h1>{Thirdpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
                     <p>{Thirdpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
                     <h4>{Secondpost.map((post) =><p>{post.frontmatter.category} | 5 min read</p>)}</h4>

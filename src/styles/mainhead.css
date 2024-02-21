@@ -112,7 +112,7 @@ margin-left: -20px;
 
 .first-image{
   margin-top: -6px;
-    background-image: url('../assets/Crypto1.png');
+    background-image: url('../assets/crypto/Crypto1.png');
     background-size: cover;
     background-position: center;
     height: 701px;
@@ -120,7 +120,7 @@ margin-left: -20px;
 }
 
 .second-image{
-    background-image: url('../assets/Crypto2.webp');
+    background-image: url('../assets/crypto/Crypto2.webp');
     background-size: cover;
     background-position: center;
     height: 150px;
@@ -128,7 +128,7 @@ margin-left: -20px;
 }
 
 .third-image{
-    background-image: url('../assets/Flujos-de-Bitcoin.webp');
+    background-image: url('../assets/crypto/Flujos-de-Bitcoin.webp');
     background-size: cover;
     background-position: center;
     height: 150px;
@@ -136,7 +136,7 @@ margin-left: -20px;
 }
 
 .four-image{
-    background-image: url('../assets/Solana.webp');
+    background-image: url('../assets/crypto/Solana.webp');
     background-size: cover;
     background-position: center;
     height: 150px;
@@ -144,7 +144,7 @@ margin-left: -20px;
 }
 
 .five-image{
-    background-image: url('../assets/Genesis.webp');
+    background-image: url('../assets/crypto/Genesis.webp');
     background-size: cover;
     background-position: center;
     height: 150px;

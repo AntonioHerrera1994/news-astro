@@ -30,6 +30,10 @@
       
 }
 
+.pw-text-grid h1{
+  font-size:  1.8rem;
+}
+
 .pw-text-grid h3{
     text-align: right;
 }
@@ -52,10 +56,14 @@
   text-decoration: none;
 }
 
-.pw-image{
+.pw-first-image{
   width: 580px;
-    height: 380px;
+  height: 380px;
+  background-image: url('../assets/pw/pw1.png');
+    background-size: cover;
+    background-position: center;
 }
+
 
 @media screen and (min-width:360px) and (max-width:736px) {
   .pw-cont{
