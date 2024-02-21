@@ -194,9 +194,9 @@ margin-left: -20px;
 }
 
 .first-image{
-      margin:0;
-      height: 380px;
-      width: 380px;
+  margin:0 auto;
+  height: 290px;
+  width: 380px;
 }
 
 .post-grid{
