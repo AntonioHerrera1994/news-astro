@@ -131,14 +131,14 @@ color: #97AAA0;
     }
 
     .head-grid{
-      grid-template-columns: repeat(4,minmax(0,1fr));
+      grid-template-columns: repeat(1,minmax(0,1fr));
       padding-left:10px;
        padding-right: 10px;
     }
 
     .header-img{
         margin-top: -10px;
-        width: 100%;
+        width: 30%;
         margin-left: 10px;
     }
 
@@ -153,8 +153,8 @@ color: #97AAA0;
     }
 
     .hamburger{
-      margin-top: -5px;
-      margin-left: 50px;
+      margin-top: -135px;
+      margin-left: 350px;
     }
 
     .nav-links a{
@@ -174,25 +174,31 @@ color: #97AAA0;
 
     
     .movil-susc{
-      margin-top: -15px;
+      margin-top: -110px;
       color: #DEE1D4;
-      font-size: .8rem;
+      font-size: .9rem;
       border: solid;
       border-width: 1px;
       border-color:#97AAA0;
       background-color: #97AAA0;
       border-radius: 25px;
       padding: 11px 15px;
+      margin-right: 125px;
+      margin-bottom: 70px;
+      margin-left: 200px;
     }
 
     .bi-search{
-      margin-top: -15px;
-      font-size: .8rem;
+      margin-top: -76px;
+      margin-bottom: 40px;
+      font-size: .9rem;
       border: solid;
       border-width: 1px;
       border-color:#DEE1D4;
       border-radius: 25px;
       padding: 7px;
+      margin-right: 240px;
+      margin-left: 150px;
     }
   
   }
