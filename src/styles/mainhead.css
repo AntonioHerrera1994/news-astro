@@ -111,10 +111,11 @@ margin-left: -20px;
 /************** Imagenes ***************/
 
 .first-image{
+  margin-top: -6px;
     background-image: url('../assets/Crypto1.png');
     background-size: cover;
     background-position: center;
-    height: 697px;
+    height: 701px;
   width: 340px;
 }
 
@@ -212,11 +213,11 @@ margin-left: -20px;
 
 /************** Pantallas grandes ***************/
 
-@media only screen and (min-width:1400px) {
+@media only screen and (min-width:1380px) {
     .first-image{
        
-        height: 690px;
-      width: 500px;
+        height: 676px;
+      width: 460px;
     }
     .img-post{
         width: 68%;
@@ -241,5 +242,29 @@ margin-left: -20px;
       padding-right: 160px;
       padding-left: 160px;
     }
+
+    .second-image{
+   
+      height: 150px;
+    width: 220px;
+  }
+  
+  .third-image{
+   
+      height: 150px;
+      width: 220px;
+  }
+  
+  .four-image{
+      
+      height: 150px;
+      width: 220px;
+  }
+  
+  .five-image{
+    
+      height: 150px;
+      width: 220px;
+  }
    
 }

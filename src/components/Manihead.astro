@@ -5,6 +5,11 @@ const Thirdpost = await Astro.glob('../pages/posts/crypto3.md');
 const Fourpost = await Astro.glob('../pages/posts/crypto4.md');
 const Fivepost = await Astro.glob('../pages/posts/crypto5.md');
 
+const AnalisisFirst = await Astro.glob('../pages/posts/analisis-1.md');
+const AnalisisSecond = await Astro.glob('../pages/posts/analisis2.md');
+const AnalisisThird = await Astro.glob('../pages/posts/analisis3.md');
+const AnalisisFour = await Astro.glob('../pages/posts/analisis4.md');
+
 import '../styles/mainhead.css'
 
 import {Image} from 'astro:assets';
@@ -73,33 +78,33 @@ import Principal5 from "../assets/Genesis.webp";
         <div class="news-grid">
             <div class="postnews-grid">
                 <div class="data">
-                    <h4 class="meta">{Fourpost.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
-                    <h2>{Fivepost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
-                    <h4>{Fivepost.map((post) =><p>{post.frontmatter.category} | 8 mins read</p>)}</h4>
+                    <h4 class="meta">{AnalisisFirst.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
+                    <h2>{AnalisisFirst.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
+                    <h4>{AnalisisFirst.map((post) =><p>{post.frontmatter.category} | 8 mins read</p>)}</h4>
                 </div>
             </div>
 
             <div class="postnews-grid">
                 <div class="data">
-                    <h4 class="meta">{Fourpost.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
-                    <h2>{Fivepost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
-                    <h4>{Fivepost.map((post) =><p>{post.frontmatter.category} | 8 mins read</p>)}</h4>
+                    <h4 class="meta">{AnalisisSecond.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
+                    <h2>{AnalisisSecond.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
+                    <h4>{AnalisisSecond.map((post) =><p>{post.frontmatter.category} | 8 mins read</p>)}</h4>
                 </div>
             </div>
 
             <div class="postnews-grid">
                 <div class="data">
-                    <h4 class="meta">{Fourpost.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
-                    <h2>{Fivepost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
-                    <h4>{Fivepost.map((post) =><p>{post.frontmatter.category} | 8 mins read</p>)}</h4>
+                    <h4 class="meta">{AnalisisThird.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
+                    <h2>{AnalisisThird.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
+                    <h4>{AnalisisThird.map((post) =><p>{post.frontmatter.category} | 8 mins read</p>)}</h4>
                 </div>
             </div>
 
             <div class="postnews-grid">
                 <div class="data">
-                    <h4 class="meta">{Fourpost.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
-                    <h2>{Fivepost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
-                    <h4>{Fivepost.map((post) =><p>{post.frontmatter.category} | 8 mins read</p>)}</h4>
+                    <h4 class="meta">{AnalisisFour.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
+                    <h2>{AnalisisFour.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
+                    <h4>{AnalisisFour.map((post) =><p>{post.frontmatter.category} | 8 mins read</p>)}</h4>
                 </div>
             </div>
         </div>
