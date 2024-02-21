@@ -1,45 +1,27 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 
-title: 'Disminución del lavado de dinero en criptomonedas en un 30% el último año, según Chainalysis'
-pubDate: ' Febrero 15, 2024'
-description: 'Direcciones ilícitas enviaron $22.2 mil millones en criptomonedas a servicios en 2023, una disminución desde $31.5 mil millones en 2022.'
+title: 'Celsius distribuirá $3 mil millones en criptomonedas a acreedores mientras emerge de la bancarrota'
+pubDate: ' Febrero 01, 2024'
+description: 'Celsius enviará más de $3 mil millones a sus acreedores mientras la bancarrota de la empresa se cierra oficialmente.'
 author: 'Chava Elizalde - CryptoWolf'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'El logotipo completo de Astro.'
-tags: ["astro", "bloguear", "aprender en público"]
-category: Crypto
+tags: ["finanzas"]
+category: Finanzas
 ---
-Direcciones ilícitas enviaron $22.2 mil millones en criptomonedas a servicios en 2023, una disminución desde $31.5 mil millones en 2022.
-La actividad ilícita en criptomonedas disminuyó significativamente el año pasado, en parte debido al menor volumen de trading de criptomonedas y en parte porque actores amenazantes sofisticados como el Grupo Lazarus están desarrollando métodos para evadir la detección, según indicó Chainalysis en su informe anual sobre el lavado de dinero en criptomonedas.
+La distribución se realizará a través de PayPal y Coinbase
+Celsius enviará más de $3 mil millones a sus acreedores mientras la bancarrota de la empresa se cierra oficialmente.
 
-Chainalysis informó que se lavaron $22.2 mil millones a través de criptomonedas en 2023, frente a los $31.5 mil millones del año anterior. La disminución fue más pronunciada que la reducción en los volúmenes de transacciones, lo que sugiere que factores más allá del simple descenso del mercado general podrían haber contribuido a la reducción de la actividad ilícita. Las cifras sugieren que solo alrededor del 1% de todo el lavado de dinero se lleva a cabo con criptomonedas. El valor de todos los fondos ilícitos lavados es de alrededor de $2 billones al año, escribió Deloitte en un informe de junio de 2023.
+Además del efectivo, los acreedores recibirán una participación en la nueva operación minera de Ionic Digital Inc., según declaraciones de la compañía el miércoles. Aproximadamente el 98% de los acreedores de Celsius Network aprobaron el plan después de 18 meses en el tribunal de quiebras. Se espera que Ionic se convierta en una empresa de cotización pública una vez que obtenga las aprobaciones necesarias.
 
-Total de criptomonedas lavadas por año en Billones de USD, 2019-2023.
+“Cuando fuimos designados en junio de 2022, todos asumieron que Celsius desaparecería por completo, como los otros prestamistas de criptomonedas que estaban presentando quiebra al mismo tiempo“, dijeron David Barse y Alan Carr, miembros del comité especial de la junta que dirigió  la quiebra, en un comunicado. Aseguraron la criptomoneda de la plataforma, negociaron un acuerdo con los acreedores, reorganizaron la parte de la empresa que podría continuar y resolvieron casos con el Departamento de Justicia de EE. UU., la Comisión de Valores y Bolsa y la Comisión de Comercio de Futuros de Productos Básicos.
 
-En 2023, hubo un aumento en el uso de puentes blockchain y servicios de juegos de azar para el lavado de criptomonedas, mientras que en 2022, había una mayor dependencia de tipos de servicios ilícitos y exchanges centralizados.
+Matt Prusak, director comercial de Hut 8, la empresa que gestiona la minería de Ionic, ha sido nombrado director ejecutivo de Ionic.
 
-El informe también mencionó que la proporción de fondos ilícitos que van a los protocolos de finanzas descentralizadas (DeFi) ha crecido, siendo el crecimiento principalmente atribuido al aumento del valor total bloqueado (TVL) de DeFi en el período.
+En un documento separado, la empresa dijo que PayPal y Coinbase distribuirán las criptomonedas. Celsius no realizará distribuciones a través de las aplicaciones móviles o web de los deudores, que se cerrarán alrededor del 28 de febrero.
 
-“La transparencia inherente de DeFi generalmente lo convierte en una mala opción para ocultar el movimiento de fondos“, dijo Chainalysis.
+El proceso de quiebra del prestamista de criptomonedas Celsius también lo llevó a un acuerdo de $4.7 mil millones con las autoridades de EE. UU. por acusaciones de fraude. El ex CEO Alex Mashinsky, quien renunció en septiembre de 2022, fue arrestado por cargos de fraude por supuestamente manipular el precio del token CEL del prestamista, una acusación que ha negado.
 
-Por ejemplo, organizaciones como Hamas, que están clasificadas como entidades terroristas por Estados Unidos, el Reino Unido, la Unión Europea y otras jurisdicciones, han visto cómo una porción considerable de sus fondos en criptomoneda ha sido rastreada y sus cuentas de criptomonedas han sido clausuradas debido a la naturaleza transparente de la tecnología blockchain.
-
-El Grupo Lazarus, un actor amenazante con sede en Corea del Norte, ha estado adaptando sus estrategias de lavado de dinero para evitar el mismo destino, según indicó Chainalysis.
-
-El grupo de hackers ha estado utilizando una variedad de protocolos, incluidos mezcladores como YoMix y puentes entre cadenas, para oscurecer el origen de los fondos robados y evadir la detección.
-
-Valor total de fondos ilícitos moviéndose entre puentes/bridges cripto en Millones de USD por año, 2019-2023.
-
-“El crecimiento de YoMix y su aceptación por parte del Grupo Lazarus es un ejemplo perfecto de la capacidad de los actores sofisticados para adaptarse y encontrar servicios de oscurecimiento de reemplazo cuando los populares previamente son cerrados“, escribió Chainalysis.
-
-Aunque los puentes están ganando popularidad debido a la preferencia del Grupo Lazarus, el valor de los fondos enviados a mezcladores desde direcciones ilícitas casi se redujo a la mitad, alcanzando los $504.3 millones.
-
-“Gran parte de esto probablemente se debe a los esfuerzos de aplicación de la ley y regulación, como la sanción y cierre del mezclador Sinbad en noviembre de 2023“, señaló Chainalysis.
-
-El Departamento del Tesoro de EE. UU. sancionó al mezclador de criptomonedas Sinbad por supuestos vínculos con el grupo de piratería de Corea del Norte, lo que llevó a la incautación de su sitio web por parte del FBI, autoridades holandesas y finlandesas.
-
-“Los cambios en la estrategia de lavado de dinero que hemos visto de los criminales de criptomonedas como el Grupo Lazarus sirven como un recordatorio importante de que los actores ilícitos más sofisticados siempre están adaptando su estrategia de lavado de dinero y explotando nuevos tipos de servicios criptográficos“, concluyó Chainalysis.
-
-Este artículo busca informar sobre la disminución del lavado de dinero en criptomonedas, destacando los cambios en las estrategias de los actores ilícitos y la adaptación de las medidas regulatorias, en línea con las tendencias y preocupaciones actuales en el mundo de las criptomonedas y la tecnología blockchain.
+Mashinsky fue puesto en libertad bajo fianza de $40 millones, y un tribunal ordenó congelar sus activos bancarios e inmobiliarios. Su juicio está programado para septiembre de 2024.

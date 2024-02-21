@@ -25,6 +25,13 @@
     
 }
 
+.izq-grid{
+    margin-right: 43px;
+}
+.finanzas-text-grid h1{
+    font-size: 1.8rem;
+}
+
 .finanzas-text-grid a{
     
     color: #0F1416;
@@ -40,47 +47,83 @@
         
 }
 
-.finanzas-image{
-    width: 550px;
-    height: 470px;
-
-}
-
 .right-grid{
     display:grid;
     grid-template-columns: repeat(2,minmax(0,1fr));
 }
 
-.finanzas-post-image{
-    width: 230px;
-    height: 150px;
-}
 
 .right-grid a{
 color: #0F1416;
 text-decoration: none;
-font-size: 1.2rem;
+font-size: 1rem;
+ 
 
+}
+
+.right-grid h1{
+    margin-right: 25px;
 }
 
 .right-grid p{
     color: #0F1416;
     text-decoration: none;
     font-size: .8rem;
+    
     }
 
     .finanzas-grid a{
         color: #0F1416;
         text-decoration: none;
         margin-right: 30px;
+        
     }
 
-    .finanzas-grid p{
-        color: #0F1416;
-        text-decoration: none;
-        font-size: .9rem;
-        
-        
+    .down-grid{
+        margin-top: 20px;
+    }
+
+    
+
+    /*************** Imagenes ***************/
+    .finanzas-first-image{
+        width: 570px;
+        height: 410px;
+        background-image: url('../assets/crypto/Crypto2.webp');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .finanzas-grid-first-image{
+        width: 270px;
+    height: 160px;
+        background-image: url('../assets/finanzas/finanzas2.webp');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .finanzas-grid-second-image{
+        width: 270px;
+        height: 160px;
+            background-image: url('../assets/finanzas/finanzas3.webp');
+            background-size: cover;
+            background-position: center;
+    }
+
+    .finanzas-grid-third-image{
+        width: 270px;
+        height: 160px;
+            background-image: url('../assets/finanzas/finanzas4.webp');
+            background-size: cover;
+            background-position: center;
+    }
+
+    .finanzas-grid-four-image{
+        width: 270px;
+        height: 160px;
+            background-image: url('../assets/finanzas/finanzas5.webp');
+            background-size: cover;
+            background-position: center;
     }
 
     @media screen and (min-width:360px) and (max-width:736px) {
