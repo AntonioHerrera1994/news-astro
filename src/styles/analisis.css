@@ -192,6 +192,12 @@ text-decoration: none;
     padding-right: 10px;
       }
 
+      .second-grid-analisis{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        padding-left:10px;
+        padding-right: 10px;
+    }
+
       .analisis-post2{
         margin-top: 30px;
         }

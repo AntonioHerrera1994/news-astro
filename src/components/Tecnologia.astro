@@ -1,5 +1,8 @@
 ---
-const Firstpost = await Astro.glob('../pages/posts/crypto-1.md');
+const Firstpost = await Astro.glob('../pages/posts/tec1.md');
+const Secondtpost = await Astro.glob('../pages/posts/tec2.md');
+const Thirdpost = await Astro.glob('../pages/posts/tec3.md');
+const Fourpost = await Astro.glob('../pages/posts/tec4.md');
 
 import '../styles/tecnologia.css'
 import {Image} from 'astro:assets';
@@ -14,31 +17,31 @@ import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
         </div>
         <div class="tec-grid">
             <div class="tec-post">
-                <Image src={myImage} alt="" class="finanzas-post-image" />
+                <div class="tec-first-image"></div>
                 <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
                 <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
                 <h4>{Firstpost.map((post) =><h4>{post.frontmatter.author} | 5 min read</h4>)}</h4>
             </div>
 
             <div class="tec-post">
-                <Image src={myImage} alt="" class="finanzas-post-image" />
-                <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-                <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
-                <h4>{Firstpost.map((post) =><h4>{post.frontmatter.author} | 5 min read</h4>)}</h4>
+                <div class="tec-second-image"></div>
+                <h1>{Secondtpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                <p>{Secondtpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
+                <h4>{Secondtpost.map((post) =><h4>{post.frontmatter.author} | 5 min read</h4>)}</h4>
             </div>
 
             <div class="tec-post">
-                <Image src={myImage} alt="" class="finanzas-post-image" />
-                <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-                <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
-                <h4>{Firstpost.map((post) =><h4>{post.frontmatter.author} | 5 min read</h4>)}</h4>
+                <div class="tec-third-image"></div>
+                <h1>{Thirdpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                <p>{Thirdpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
+                <h4>{Thirdpost.map((post) =><h4>{post.frontmatter.author} | 5 min read</h4>)}</h4>
             </div>
 
             <div class="tec-post">
-                <Image src={myImage} alt="" class="finanzas-post-image" />
-                <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-                <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
-                <h4>{Firstpost.map((post) =><h4>{post.frontmatter.author} | 5 min read</h4>)}</h4>
+                <div class="tec-four-image"></div>
+                <h1>{Fourpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                <p>{Fourpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
+                <h4>{Fourpost.map((post) =><h4>{post.frontmatter.author} | 5 min read</h4>)}</h4>
             </div>
         </div>
     </div>

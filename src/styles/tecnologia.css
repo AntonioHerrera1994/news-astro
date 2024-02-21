@@ -25,6 +25,10 @@
     
 }
 
+.tec-text-grid h1{
+    font-size: 1.8rem;
+}
+
 
 .tec-text-grid h3{
     text-align: right;
@@ -36,25 +40,23 @@
     padding: 2rem;
     display:grid;
     grid-template-columns: repeat(4,minmax(0,1fr));
-    gap: 3rem; 
+    gap: 2rem; 
 }
 
-.finanzas-post-image{
-    width: 260px;
-    height: 260px;
+.tec-post{
+    margin-right: 30px;
 }
-
 
 .tec-post a{
     color: #0F1416;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .tec-post p{
     color: #0F1416;
     text-decoration: none;
-    font-size: .8rem;
+    font-size: .7rem;
 }
 
 .tec-post h4{
@@ -62,6 +64,41 @@
     text-decoration: none;
     font-size: .7rem;
 }
+
+/*************** Imagenes ***************/
+.tec-first-image{
+    width: 240px;
+    height: 240px;
+    background-image: url('../assets/tecnologia/tec1.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.tec-second-image{
+    width: 240px;
+    height: 240px;
+    background-image: url('../assets/tecnologia/tec2.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.tec-third-image{
+    width: 240px;
+    height: 240px;
+    background-image: url('../assets/tecnologia/tec3.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.tec-four-image{
+    width: 240px;
+    height: 240px;
+    background-image: url('../assets/tecnologia/tec4.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+/*************** Movil ***************/
 
 @media screen and (min-width:360px) and (max-width:736px) {
     .tec-cont{
@@ -77,6 +114,8 @@
     }
 }
 
+/*************** Pantalla grande ***************/
+
 @media only screen and (min-width:1400px) {
     .tec-cont{
         margin: 0 auto;
@@ -85,10 +124,24 @@
       padding-left: 160px;
     
     }
-
-    .finanzas-post-image{
-        width: 350px;
-        height: 350px;
+    .tec-first-image{
+        width: 320px;
+        height: 320px;
+    }
+    
+    .tec-second-image{
+        width: 320px;
+        height: 320px;
+    }
+    
+    .tec-third-image{
+        width: 320px;
+        height: 320px;
+    }
+    
+    .tec-four-image{
+        width: 320px;
+        height: 320px;
     }
     
 }
