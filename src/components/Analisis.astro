@@ -1,5 +1,14 @@
 ---
-const Firstpost = await Astro.glob('../pages/posts/crypto-1.md');
+const Firstpost = await Astro.glob('../pages/posts/analisis-1.md');
+const Secondpost = await Astro.glob('../pages/posts/analisis2.md');
+const Thirdpost = await Astro.glob('../pages/posts/analisis3.md');
+
+const GridFirstpost = await Astro.glob('../pages/posts/analisis4.md');
+const GridSecondpost = await Astro.glob('../pages/posts/analisis5.md');
+const GridThirdpost = await Astro.glob('../pages/posts/analisis6.md');
+const GridFourpost = await Astro.glob('../pages/posts/analisis7.md');
+const GridFivepost = await Astro.glob('../pages/posts/analisis8.md');
+const GridSixpost = await Astro.glob('../pages/posts/analisis9.md');
 
 import '../styles/analisis.css'
 import {Image} from 'astro:assets';
@@ -16,84 +25,66 @@ import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
 
             <div class="analisis-post1">
               
-                <Image src={myImage} alt="" class="analisis-image" />
+                <div class="analisis-first-image"></div>
                 <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-
-                <div class="sub-grid">
-                    <Image src={myImage} alt="" class="subgrid-image" />
-                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-                </div>
-
-                <div class="sub-grid">
-                    <Image src={myImage} alt="" class="subgrid-image" />
-                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-                </div>
-
-                <div class="sub-grid">
-                    <Image src={myImage} alt="" class="subgrid-image" />
-                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-                </div>
-
-                <div class="sub-grid">
-                    <Image src={myImage} alt="" class="subgrid-image" />
-                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-                </div>
-                
             </div>
             
                 <div class="analisis-post2">
                     
-                    <Image src={myImage} alt="" class="analisis-image" />
-                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-
-                    <div class="sub-grid">
-                        <Image src={myImage} alt="" class="subgrid-image" />
-                        <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-                    </div>
-    
-                    <div class="sub-grid">
-                        <Image src={myImage} alt="" class="subgrid-image" />
-                        <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-                    </div>
-    
-                    <div class="sub-grid">
-                        <Image src={myImage} alt="" class="subgrid-image" />
-                        <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-                    </div>
-
-                    <div class="sub-grid">
-                        <Image src={myImage} alt="" class="subgrid-image" />
-                        <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-                    </div>
+                    <div class="analisis-second-image"></div>
+                    <h1>{Secondpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+         
                 </div>
             
             
                 <div class="analisis-post3">
                   
-                    <Image src={myImage} alt="" class="analisis-image" />
-                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-
-                    <div class="sub-grid">
-                        <Image src={myImage} alt="" class="subgrid-image" />
-                        <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-                    </div>
-    
-                    <div class="sub-grid">
-                        <Image src={myImage} alt="" class="subgrid-image" />
-                        <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-                    </div>
-    
-                    <div class="sub-grid">
-                        <Image src={myImage} alt="" class="subgrid-image" />
-                        <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-                    </div>
-
-                    <div class="sub-grid">
-                        <Image src={myImage} alt="" class="subgrid-image" />
-                        <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
-                    </div>
+                    <div class="analisis-third-image"></div>
+                    <h1>{Thirdpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
                 </div>
            
+        </div>
+
+        <div class="second-grid-analisis">
+
+            <div class="grid-post-analisis">
+                <div class="sub-grid">
+                    <div class="analisis-grid-first-image"></div>
+                    <h1>{GridFirstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                </div>
+
+                <div class="sub-grid">
+                    <div class="analisis-grid-second-image"></div>
+                    <h1>{GridSecondpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                </div>
+                 </div>
+
+                 <div class="grid-post-analisis">
+                    <div class="sub-grid">
+                        <div class="analisis-grid-third-image"></div>
+                        <h1>{GridThirdpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                    </div>
+    
+                    <div class="sub-grid">
+                        <div class="analisis-grid-four-image"></div>
+                        <h1>{GridFourpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                    </div>
+                    </div>
+
+                    <div class="grid-post-analisis">
+                        <div class="sub-grid">
+                            <div class="analisis-grid-five-image"></div>
+                            <h1>{GridFivepost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                        </div>
+        
+                        <div class="sub-grid">
+                            <div class="analisis-grid-six-image"></div>
+                            <h1>{GridSixpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                        </div>
+                        </div>
+
+
+
         </div>
     </div>
     
