@@ -120,6 +120,9 @@ color: #97AAA0;
   .movil-susc{
     display: none;
   }
+  .bi-search{
+    display: none;
+  }
 }
 
 @media (max-width:768px) {
