@@ -132,13 +132,13 @@ color: #97AAA0;
 
     .head-grid{
       grid-template-columns: repeat(3,minmax(0,1fr));
-  padding-left:10px;
-  padding-right: 10px;
+      padding-left:10px;
+       padding-right: 10px;
     }
 
     .header-img{
         margin-top: -25px;
-        width: 50%;
+        width: 70%;
         margin-left: 10px;
     }
 
@@ -154,7 +154,7 @@ color: #97AAA0;
 
     .hamburger{
       margin-top: 0px;
-      margin-left: 10px;
+      margin-left: 50px;
     }
 
     .nav-links a{
@@ -174,6 +174,22 @@ color: #97AAA0;
 
     .movil-susc{
       color: #DEE1D4;
+      font-size: .8rem;
+      border: solid;
+      border-width: 1px;
+      border-color:#97AAA0;
+      background-color: #97AAA0;
+      border-radius: 25px;
+      padding: 8px;
+    }
+
+    .responsive-menu i{
+      font-size: .8rem;
+      border: solid;
+      border-width: 1px;
+      border-color:#DEE1D4;
+      border-radius: 25px;
+      padding: 10px;
     }
   
   }
