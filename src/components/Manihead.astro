@@ -23,45 +23,44 @@ import Principal5 from "../assets/Genesis.webp";
         <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
 
         <h4 class="meta">{Firstpost.map((post) =><p>{post.frontmatter.category} | {post.frontmatter.author} | {post.frontmatter.pubDate}</p>)} </h4>
-    </div>  
-    <div>
-        <Image src={Principal1} alt="" class="image" />
     </div>
 
+    <div class="first-image"></div>
+
     <div>
         <div class="post-grid">
-            <Image src={Principal2} alt="" class="img-post" />
+            <div class="second-image"></div>
             <div class="data">
-                <h4 class="meta">{Secondpost.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
+                <h4 class="meta">{Secondpost.map((post) =><h4>{post.frontmatter.author} | {post.frontmatter.pubDate}</h4>)}</h4>
                 <h2>{Secondpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
-                <h4>{Secondpost.map((post) =><p>{post.frontmatter.category} | 8 mins read</p>)}</h4>
+                <h4>{Secondpost.map((post) =><h4>{post.frontmatter.category} | 8 mins read</h4>)}</h4>
             </div>
         </div>
 
         <div class="post-grid">
-            <Image src={Principal3} alt="" class="img-post" />
+            <div class="third-image"></div>
             <div class="data">
-                <h4 class="meta">{Thirdpost.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
+                <h4 class="meta">{Thirdpost.map((post) =><h4>{post.frontmatter.author} | {post.frontmatter.pubDate}</h4>)}</h4>
                 <h2>{Thirdpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
-                <h4>{Thirdpost.map((post) =><p>{post.frontmatter.category} | 8 mins read</p>)}</h4>
+                <h4>{Thirdpost.map((post) =><h4>{post.frontmatter.category} | 8 mins read</h4>)}</h4>
             </div>
         </div>
 
         <div class="post-grid">
-            <Image src={Principal4} alt="" class="img-post" />
+            <div class="four-image"></div>
             <div class="data">
                 <h4 class="meta">{Fourpost.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
                 <h2>{Fourpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
-                <h4>{Fourpost.map((post) =><p>{post.frontmatter.category} | 8 mins read</p>)}</h4>
+                <h4>{Fourpost.map((post) =><h4>{post.frontmatter.category} | 8 mins read</h4>)}</h4>
             </div>
         </div>
 
         <div class="post-grid">
-            <Image src={Principal5} alt="" class="img-post" />
+            <div class="five-image"></div>
             <div class="data">
                 <h4 class="meta">{Fourpost.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
                 <h2>{Fivepost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
-                <h4>{Fivepost.map((post) =><p>{post.frontmatter.category} | 8 mins read</p>)}</h4>
+                <h4>{Fivepost.map((post) =><h4>{post.frontmatter.category} | 8 mins read</h4>)}</h4>
             </div>
         </div>
     </div>

@@ -39,14 +39,9 @@
     
 }
 
-.maninhead .image {
-    width:355px;
-    height: 555px;
-   margin-left: -22px;
-}
 
 .post-grid{
-    padding: 2rem;
+    padding: 1.8rem;
   display:grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
       gap: 2rem;
@@ -54,14 +49,10 @@
       margin-top: -33px;
 }
 
-.img-post{
-    width: 100%;
-    height: 86%;
-}
 
 .maninhead h4{
     color: #DEE1D4;
-    font-size: .4rem;
+    font-size: .7rem;
    
 }
 .maninhead h2{
@@ -80,7 +71,7 @@ margin-left: -20px;
 }
 
 .banner .meta{
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .news{
@@ -115,6 +106,51 @@ margin-left: -20px;
     color: #DEE1D4;
     font-size: .8rem;
 }
+
+
+/************** Imagenes ***************/
+
+.first-image{
+    background-image: url('../assets/Crypto1.png');
+    background-size: cover;
+    background-position: center;
+    height: 697px;
+  width: 340px;
+}
+
+.second-image{
+    background-image: url('../assets/Crypto2.webp');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  width: 170px;
+}
+
+.third-image{
+    background-image: url('../assets/Flujos-de-Bitcoin.webp');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  width: 170px;
+}
+
+.four-image{
+    background-image: url('../assets/Solana.webp');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  width: 170px;
+}
+
+.five-image{
+    background-image: url('../assets/Genesis.webp');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  width: 170px;
+}
+
+/************** Movil ***************/
 
 @media screen and (min-width:360px) and (max-width:736px) {
     .main-cont{
@@ -156,11 +192,10 @@ margin-left: -20px;
     margin-top: 0px;
 }
 
-.maninhead .image {
-    
-    width:400px;
-    height: 400px;
-   margin-left: 11px;
+.first-image{
+       margin-left: 5px;
+    height: 420px;
+  width: 420px;
 }
 
 .post-grid{
@@ -174,13 +209,15 @@ margin-left: -20px;
 
 }
 
+
+/************** Pantallas grandes ***************/
+
 @media only screen and (min-width:1400px) {
-    .maninhead .image {
-        width:500px;
-        height: 558px;
-       margin-left: 10px;
+    .first-image{
+       
+        height: 690px;
+      width: 500px;
     }
-    
     .img-post{
         width: 68%;
         height: 86%;
