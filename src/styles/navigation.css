@@ -138,7 +138,7 @@ color: #97AAA0;
 
     .header-img{
         margin-top: -25px;
-        width: 70%;
+        width: 100%;
         margin-left: 10px;
     }
 
@@ -172,7 +172,12 @@ color: #97AAA0;
       display: none;
     }
 
+    .responsive-menu{
+      margin-left: -12px;
+    }
     .movil-susc{
+      
+     
       color: #DEE1D4;
       font-size: .8rem;
       border: solid;
