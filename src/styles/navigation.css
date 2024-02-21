@@ -98,6 +98,8 @@ color: #97AAA0;
 }
 
 
+
+
 @media screen and (min-width: 636px) {
   .nav-links {
     margin-left: -24em;
@@ -115,6 +117,9 @@ color: #97AAA0;
   .hamburger{
     display: none;
   }
+  .movil-susc{
+    display: none;
+  }
 }
 
   @media screen and (min-width:360px) and (max-width:736px) {
@@ -126,7 +131,7 @@ color: #97AAA0;
     }
 
     .head-grid{
-      grid-template-columns: repeat(1,minmax(0,1fr));
+      grid-template-columns: repeat(3,minmax(0,1fr));
   padding-left:10px;
   padding-right: 10px;
     }
@@ -148,8 +153,8 @@ color: #97AAA0;
     }
 
     .hamburger{
-      margin-top: -90px;
-      margin-left: 320px;
+      margin-top: 0px;
+      margin-left: 10px;
     }
 
     .nav-links a{
@@ -165,6 +170,10 @@ color: #97AAA0;
 
     .nav-links .suscribirme-menu{
       display: none;
+    }
+
+    .movil-susc{
+      color: #DEE1D4;
     }
   
   }
