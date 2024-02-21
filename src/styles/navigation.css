@@ -137,7 +137,7 @@ color: #97AAA0;
     }
 
     .header-img{
-        margin-top: -25px;
+        margin-top: -10px;
         width: 100%;
         margin-left: 10px;
     }
@@ -174,8 +174,7 @@ color: #97AAA0;
 
     
     .movil-susc{
-      
-     
+      margin-top: -15px;
       color: #DEE1D4;
       font-size: .8rem;
       border: solid;
@@ -183,16 +182,17 @@ color: #97AAA0;
       border-color:#97AAA0;
       background-color: #97AAA0;
       border-radius: 25px;
-      padding: 8px;
+      padding: 11px;
     }
 
     .bi-search{
+      margin-top: -15px;
       font-size: .8rem;
       border: solid;
       border-width: 1px;
       border-color:#DEE1D4;
       border-radius: 25px;
-      padding: 10px;
+      padding: 7px;
     }
   
   }
