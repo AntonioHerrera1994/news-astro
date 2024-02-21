@@ -1,22 +1,25 @@
 ---
 const Firstpost = await Astro.glob('../pages/posts/crypto-1.md');
 
+const GridFirstpost = await Astro.glob('../pages/posts/crypto2.md');
+const GridSecondpost = await Astro.glob('../pages/posts/crypto3.md');
+const GridThirdpost = await Astro.glob('../pages/posts/crypto4.md');
+
 import '../styles/crypto.css'
-import {Image} from 'astro:assets';
-import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
+
 ---
 
 <section class="crypto">
 <div class="crypto-cont">
     <div class="crypto-text-grid">
         <h1>Crypto</h1>
-        <h3>Ver más > </h3>
+        <h3><a href="#">Ver más > </a></h3>
     </div>
 
     <div class="crypto-grid">
 
         <div>
-                <Image src={myImage} alt="" class="crypto-image" />
+            <div class="crypto-first-image"></div>
             <div class="crypto-post-grid">
                 <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
                 <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
@@ -25,30 +28,30 @@ import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
 
         <div class="rigt-crypto">
             <div class="post-crypto-grid">
-                <Image src={myImage} alt="" class="crypto-image-post" />
+                <div class="crypto-grid-first-image"></div>
                 <div class="text-crypto">
-                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                    <h1>{GridFirstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
                     <br>
-                    <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
+                    <p>{GridFirstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
                 </div>
                 
             </div>
 
             <div class="post-crypto-grid">
-                <Image src={myImage} alt="" class="crypto-image-post" />
+                <div class="crypto-grid-second-image"></div>
                 <div class="text-crypto">
-                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                    <h1>{GridSecondpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
                     <br>
-                    <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
+                    <p>{GridSecondpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
                 </div>
             </div>
 
             <div class="post-crypto-grid">
-                <Image src={myImage} alt="" class="crypto-image-post" />
+                <div class="crypto-grid-third-image"></div>
                 <div class="text-crypto">
-                    <h1>{Firstpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
+                    <h1>{GridThirdpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h1>
                     <br>
-                    <p>{Firstpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
+                    <p>{GridThirdpost.map((post) =><p>{post.frontmatter.description}</p>)}</p>
                 </div>
             </div>
         </div>

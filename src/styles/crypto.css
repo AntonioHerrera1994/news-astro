@@ -21,6 +21,16 @@
         gap: 5rem; 
 }
 
+.crypto-text-grid h1{
+    font-size: 1.8rem;
+}
+
+.crypto-text-grid a{
+    color: #DEE1D4;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
 .crypto-grid{
     margin-top:-35px;
     padding: 2rem;
@@ -40,11 +50,6 @@
 
 }
 
-.crypto-image{
-    width: 640px;
-    height: 340px;
-
-}
 
 .crypto-post-grid{
     
@@ -55,13 +60,13 @@
 .crypto-post-grid a{
     color: #DEE1D4;
     text-decoration: none;
-  
+    font-size: 1.1rem;
 }
 
 .crypto-post-grid p{
     color: #DEE1D4;
     font-size: .8rem;
-    margin-top: -73px;
+    margin-top: -94px;
     margin-left: 380px;
     margin-right: -350px;
    
@@ -72,11 +77,6 @@
     display:grid;
     grid-template-columns: repeat(2,minmax(0,1fr));
     margin-bottom: 35px;
-}
-
-.crypto-image-post{
-    width: 240px;
-    height: 160px;
 }
 
 .rigt-crypto{
@@ -96,9 +96,48 @@ margin-left:80px ;
     
 }
 
-.text-crypto{
-    margin-top: -31px;
+.text-crypto p{
+    margin-top: -40px;
 }
+.text-crypto h1{
+    margin-top: -8px;
+}
+
+/*************** Imagenes ***************/
+
+.crypto-first-image{
+    width: 650px;
+    height: 420px;
+  background-image: url('../assets/crypto/Crypto1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.crypto-grid-first-image{
+    width: 240px;
+    height: 180px;
+    background-image: url('../assets/crypto/Crypto2.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.crypto-grid-second-image{
+    width: 240px;
+    height: 180px;
+    background-image: url('../assets/crypto/Flujos-de-Bitcoin.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.crypto-grid-third-image{
+    width: 240px;
+    height: 180px;
+    background-image: url('../assets/crypto/Solana.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+/*************** Movil ***************/
 
 @media screen and (min-width:360px) and (max-width:736px) {
     .crypto-cont{
@@ -130,6 +169,8 @@ margin-left:80px ;
 
 }
 
+/*************** Pantalla grande ***************/
+
 @media only screen and (min-width:1400px) {
     .crypto-cont{
         margin: 0 auto;
@@ -138,15 +179,26 @@ margin-left:80px ;
         padding-left: 160px;
     }
 
-    .crypto-image-post{
-        width: 330px;
-        height: 180px;
+    .crypto-first-image{
+        width: 800px;
+        height: 500px;
+    }
+    
+    .crypto-grid-first-image{
+        width: 320px;
+        height: 190px;
+    }
+    
+    .crypto-grid-second-image{
+        width: 320px;
+        height: 190px;
+    }
+    
+    .crypto-grid-third-image{
+        width: 320px;
+        height: 190px;
     }
 
-    .crypto-image{
-        width: 750px;
-        height: 410px;
-    
-    }
+ 
     
 }
