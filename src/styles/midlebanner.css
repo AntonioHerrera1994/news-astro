@@ -21,17 +21,18 @@
     grid-template-columns: repeat(2,minmax(0,1fr));
     background-image: url('../assets/banner2.png');
     background-size: cover;
-    background-position: right 20% bottom 12%;
+    background-position: right 20% bottom 17%;
 }
 
 .midle-izq{
     margin-right: 170px;
-    margin-top: 40px;
+    margin-left: 30px;
+    margin-top: 60px;
 }
 
 .midle-der{
-    margin-top: 285px;
-    margin-left: 120px;
+    margin-top: 307px;
+    margin-left: 150px;
 }
 
 .midle-der p{
@@ -127,6 +128,12 @@
     
     }
 
+    .midle-grid{
+        margin-top:-50px;
+        padding: 3rem 6rem;
+        background-position: right 20% bottom 17%;
+    }
+
     .midle-izq{
         margin-right: 170px;
         margin-top: 80px;
@@ -134,7 +141,7 @@
     
     .midle-der{
         margin-top: 270px;
-        margin-left: 100px;
+        margin-left: 240px;
     }
 
 }
