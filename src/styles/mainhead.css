@@ -153,7 +153,7 @@ margin-left: -20px;
 
 /************** Movil ***************/
 
-@media screen and (min-width:360px) and (max-width:736px) {
+@media (max-width:768px) {
     .main-cont{
         width: auto;
         padding-left: 20px;
@@ -195,8 +195,8 @@ margin-left: -20px;
 
 .first-image{
        margin-left: 5px;
-    height: 420px;
-  width: 420px;
+    height: 380px;
+  width: 380px;
 }
 
 .post-grid{
@@ -206,6 +206,26 @@ margin-left: -20px;
       gap: 2rem;
       margin-left: 0;
       margin-top: 0;
+}
+
+.second-image{
+    height: 150px;
+    width: 140px;
+}
+
+.third-image{
+    height: 150px;
+  width: 140px;
+}
+
+.four-image{
+    height: 150px;
+    width: 140px;
+}
+
+.five-image{
+    height: 150px;
+    width: 140px;
 }
 
 }
