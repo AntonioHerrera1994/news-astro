@@ -43,7 +43,6 @@
   column-count: 2;
 column-gap: 20px;
 text-align: justify;
-
 }
 
 .pw-pst a{
@@ -70,7 +69,7 @@ text-align: justify;
 
 /*************** Movil***************/
 
-@media screen and (min-width:360px) and (max-width:736px) {
+@media (max-width:768px) {
   .pw-cont{
     width: auto;
     padding-left: 20px;
@@ -83,10 +82,22 @@ padding-left:10px;
 padding-right: 10px;
   }
 
-
  .pw-pst{
-  text-align: center;
+  text-align: left;
  }
+
+ .pw-pst p{
+  column-count: 1;
+column-gap: 20px;
+text-align: left;
+}
+
+
+
+ .pw-first-image{
+  width: 360px;
+  height: 350px;
+}
 }
 
 /*************** Pantalla grande ***************/
