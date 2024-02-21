@@ -126,6 +126,8 @@ font-size: 1rem;
             background-position: center;
     }
 
+     /*************** Movil ***************/
+
     @media screen and (min-width:360px) and (max-width:736px) {
      
         .finanzas-cont{
@@ -155,6 +157,8 @@ font-size: 1rem;
         }
     }
 
+     /*************** Pantalla grande ***************/
+
     @media only screen and (min-width:1400px) {
 
         .finanzas-cont{
@@ -165,23 +169,37 @@ font-size: 1rem;
         
         }
 
-        .finanzas-post-image{
-            width: 300px;
-            height: 200px;
-        }
-
-        .finanzas-image{
-            width: 710px;
-            height: 500px;
-        
-        }
-
         .right-grid p{
             margin-right: 50px;
             }
 
             .right-grid h1{
                 margin-right: 50px;
+                }
+
+                .finanzas-first-image{
+                    width: 730px;
+                    height: 450px;
+                }
+            
+                .finanzas-grid-first-image{
+                    width: 330px;
+                    height: 200px;
+                }
+            
+                .finanzas-grid-second-image{
+                    width: 330px;
+                    height: 200px;
+                }
+            
+                .finanzas-grid-third-image{
+                    width: 330px;
+                    height: 200px;
+                }
+            
+                .finanzas-grid-four-image{
+                    width: 330px;
+                    height: 200px;
                 }
     }
    
