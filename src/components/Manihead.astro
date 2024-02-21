@@ -1,14 +1,18 @@
 ---
 const Firstpost = await Astro.glob('../pages/posts/crypto-1.md');
-const Secondpost = await Astro.glob('../pages/posts/finanzas1.md');
-const Thirdpost = await Astro.glob('../pages/posts/analisis-1.md');
-const Fourpost = await Astro.glob('../pages/posts/tec1.md');
-const Fivepost = await Astro.glob('../pages/posts/finanzas2.md');
+const Secondpost = await Astro.glob('../pages/posts/crypto2.md');
+const Thirdpost = await Astro.glob('../pages/posts/crypto3.md');
+const Fourpost = await Astro.glob('../pages/posts/crypto4.md');
+const Fivepost = await Astro.glob('../pages/posts/crypto5.md');
 
 import '../styles/mainhead.css'
 
 import {Image} from 'astro:assets';
-import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
+import Principal1 from "../assets/Crypto1.png";
+import Principal2 from "../assets/Crypto2.webp";
+import Principal3 from "../assets/Flujos-de-Bitcoin.webp";
+import Principal4 from "../assets/Solana.webp";
+import Principal5 from "../assets/Genesis.webp";
 ---
 
 <div class="maninhead">
@@ -21,12 +25,12 @@ import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
         <h4 class="meta">{Firstpost.map((post) =><p>{post.frontmatter.category} | {post.frontmatter.author} | {post.frontmatter.pubDate}</p>)} </h4>
     </div>  
     <div>
-        <Image src={myImage} alt="" class="image" />
+        <Image src={Principal1} alt="" class="image" />
     </div>
 
     <div>
         <div class="post-grid">
-            <Image src={myImage} alt="" class="img-post" />
+            <Image src={Principal2} alt="" class="img-post" />
             <div class="data">
                 <h4 class="meta">{Secondpost.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
                 <h2>{Secondpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
@@ -35,7 +39,7 @@ import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
         </div>
 
         <div class="post-grid">
-            <Image src={myImage} alt="" class="img-post" />
+            <Image src={Principal3} alt="" class="img-post" />
             <div class="data">
                 <h4 class="meta">{Thirdpost.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
                 <h2>{Thirdpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
@@ -44,7 +48,7 @@ import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
         </div>
 
         <div class="post-grid">
-            <Image src={myImage} alt="" class="img-post" />
+            <Image src={Principal4} alt="" class="img-post" />
             <div class="data">
                 <h4 class="meta">{Fourpost.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
                 <h2>{Fourpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
@@ -53,7 +57,7 @@ import myImage from "../assets/Cover_Blog_PW_16.02.24.png";
         </div>
 
         <div class="post-grid">
-            <Image src={myImage} alt="" class="img-post" />
+            <Image src={Principal5} alt="" class="img-post" />
             <div class="data">
                 <h4 class="meta">{Fourpost.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
                 <h2>{Fivepost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>

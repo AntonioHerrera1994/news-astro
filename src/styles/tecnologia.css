@@ -20,10 +20,75 @@
         gap: 5rem; 
 }
 
+.tec-text-grid a{
+    color: #0F1416;
+    
+}
+
+
+.tec-text-grid h3{
+    text-align: right;
+    font-size: .8rem;
+}
+
 .tec-grid{
-    margin-top:-50px;
+    margin-top:-30px;
     padding: 2rem;
     display:grid;
     grid-template-columns: repeat(4,minmax(0,1fr));
-        
+    gap: 3rem; 
+}
+
+.finanzas-post-image{
+    width: 260px;
+    height: 260px;
+}
+
+
+.tec-post a{
+    color: #0F1416;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.tec-post p{
+    color: #0F1416;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+.tec-post h4{
+    color: #0F1416;
+    text-decoration: none;
+    font-size: .7rem;
+}
+
+@media screen and (min-width:360px) and (max-width:736px) {
+    .tec-cont{
+        width: auto;
+            padding-left: 20px;
+            padding-right: 20px;
+    }
+
+    .tec-grid{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        padding-left:10px;
+        padding-right: 10px; 
+    }
+}
+
+@media only screen and (min-width:1400px) {
+    .tec-cont{
+        margin: 0 auto;
+      overflow: hidden;
+      padding-right: 160px;
+      padding-left: 160px;
+    
+    }
+
+    .finanzas-post-image{
+        width: 350px;
+        height: 350px;
+    }
+    
 }
