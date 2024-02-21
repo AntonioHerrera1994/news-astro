@@ -155,6 +155,7 @@ margin-left: -20px;
 
 @media (max-width:768px) {
     .main-cont{
+      margin-top: -16px;
         width: auto;
         padding-left: 20px;
         padding-right: 20px;

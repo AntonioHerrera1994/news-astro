@@ -125,21 +125,23 @@ color: #97AAA0;
 @media (max-width:768px) {
 
     .content{
+    
       width: auto;
       padding-left: 20px;
       padding-right: 20px;
     }
 
     .head-grid{
+     
       grid-template-columns: repeat(4,minmax(0,1fr));
       padding-left:10px;
        padding-right: 10px;
     }
 
     .header-img{
-        margin-top: -50px;
-        height: 120px;
-        width:120px;
+        margin-top: -62px;
+        height: 140px;
+        width:140px;
         margin-left: 0;
     }
 
@@ -184,11 +186,12 @@ color: #97AAA0;
       border-radius: 25px;
       padding: 11px 8px;
       margin-bottom: 42px;
+      margin-right: -25px;
       
     }
 
     .bi-search{
-      margin-left: 25px;
+      margin-left: 40px;
       margin-bottom: 45px;
       font-size: .9rem;
       border: solid;
