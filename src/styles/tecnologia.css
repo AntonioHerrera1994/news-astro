@@ -116,6 +116,7 @@
 
     .tec-first-image{
         width: 90%;
+        height: 4rem;
     }
 
     .tec-second-image{
@@ -128,7 +129,7 @@
     
     .tec-four-image{
         width: 90%;
-       
+        
     }
 }
 
