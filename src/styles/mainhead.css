@@ -253,6 +253,11 @@ and (orientation: portrait) {
   padding-right: 20px;
 }
 
+.first-image{
+  margin:0 auto;
+height: 290px;
+width: 350px;
+}
 
 }
 
