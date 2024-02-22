@@ -235,12 +235,11 @@ color: #97AAA0;
       border-radius: 25px;
       padding: .7rem 2rem;
       margin-bottom: 4rem;
-      margin-right: -1rem;
-      
+      margin-right: 0;
     }
 
     .bi-search{
-      margin-left: 2rem;
+      margin-left: 1rem;
       margin-right: 0;
     margin-top: -4px;
       font-size: .9rem;
