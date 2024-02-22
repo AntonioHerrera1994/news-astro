@@ -61,7 +61,7 @@ line-height: 22px;
 /*************** Imagen***************/
 
 .pw-first-image{
-  width: 580px;
+  width: 500px;
   height: 414px;
   background-image: url('../assets/pw/pw1.png');
     background-size: cover;
@@ -83,19 +83,12 @@ padding-left:10px;
 padding-right: 10px;
   }
 
- .pw-pst{
-  text-align: left;
- }
-
  .pw-pst p{
   column-count: 1;
 column-gap: 20px;
 text-align: justify;
 line-height: 30px;
 }
-
-
-
  .pw-first-image{
   height: auto;
   width: auto;
