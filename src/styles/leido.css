@@ -183,18 +183,18 @@ select{
  and (-webkit-min-device-pixel-ratio: 2)
  and (orientation: portrait) {
     .leido-first-image{
-        height: 255px;
-        width: 265px;
+        height: 250px;
+        width: 270px;
     }
 
     .leido-second-image{
-        height: 255px;
-        width: 265px;
+        height: 250px;
+        width: 270px;
     }
     
     .leido-third-image{
-        height: 255px;
-        width: 265px;
+        height: 250px;
+        width: 270px;
     }
     .text-grid h1{
         font-size: 1.6rem;
