@@ -217,6 +217,7 @@ color: #97AAA0;
   and (orientation: portrait) {
 
     .content{
+      height: auto;
       margin-bottom: -5rem;
     }
     .header-img{
