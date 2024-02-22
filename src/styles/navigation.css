@@ -242,3 +242,11 @@ font-size: 1.1rem;
     }
 
   }
+
+  @media only screen and (min-width:900px) {
+    .movil-susc{
+    display: none;
+      
+    }
+
+  }
