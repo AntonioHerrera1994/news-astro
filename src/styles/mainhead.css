@@ -255,7 +255,7 @@ and (orientation: portrait) {
 
 .first-image{
   margin:0 auto;
-height: 285px;
+height: 280px;
 width: 255px;
 }
 
@@ -269,27 +269,27 @@ width: 255px;
 
 .post-grid .data{
   margin-top: -12px;
-  margin-left: 20px;    
+  margin-left: 25px;    
   }
 
   .second-image{
-    height: 155px;
-    width: 135px;
+    height: 160px;
+    width: 140px;
 }
 
 .third-image{
-  height: 155px;
-  width: 135px;
+  height: 160px;
+    width: 140px;
 }
 
 .four-image{
-  height: 155px;
-  width: 135px;
+  height: 160px;
+    width: 140px;
 }
 
 .five-image{
-  height: 155px;
-  width: 135px;
+  height: 160px;
+    width: 140px;
 }
 
 }
