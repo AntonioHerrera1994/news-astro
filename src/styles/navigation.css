@@ -222,8 +222,8 @@ color: #97AAA0;
     }
     .header-img{
       margin-top: -58px;
-      height: 130px;
-      width:130px;
+      height: auto;
+      height: auto;
       margin-left: -18px; 
       margin-right: 2rem;
   }
