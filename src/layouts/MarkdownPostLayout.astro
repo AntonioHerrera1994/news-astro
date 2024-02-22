@@ -9,7 +9,7 @@ import '../styles/footer.css'
 import {Image} from 'astro:assets';
 ---
 
-<body>
+<Navigation />
     
     <div class="postcontent">
         <img src={frontmatter.image} alt="" class="image"
@@ -18,8 +18,10 @@ import {Image} from 'astro:assets';
         <p>{frontmatter.author}</p>
         <slot />
     </div>
+
+    <Footer />
     
-</body>
+
 
 
 
