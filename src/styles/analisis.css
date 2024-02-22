@@ -29,7 +29,7 @@
     padding: 2rem;
     display:grid;
     grid-template-columns: repeat(3,minmax(0,1fr));
-        
+    gap:2rem;
 }
 
 .second-grid-analisis{
@@ -37,7 +37,9 @@
     padding: 2rem;
     display:grid;
     grid-template-columns: repeat(3,minmax(0,1fr));
+    gap:2rem;
 }
+
 
 .analisis-post1 h1{
     font-size: 1.5rem;
@@ -80,12 +82,13 @@ text-decoration: none;
     display:grid;
     grid-template-columns: repeat(2,minmax(0,1fr));
         margin-top: 50px;
+        gap:1rem;
 }
 
 .sub-grid h1{
     font-size: 1rem;
     margin-right: 15px;
-    margin-left: -30px;
+   margin-top: -.2rem;
 
     
 }
@@ -110,24 +113,24 @@ text-decoration: none;
 
 /*************** Imagenes ***************/
 .analisis-first-image{
-        width: 365px;
-        height: 300px;
-    background-image: url('../assets/analisis/analisis1.png');
+      width: 100%;
+      height: 290px;
+      background-image: url('../assets/analisis/analisis1.png');
       background-size: cover;
       background-position: center;
 }
 
 .analisis-second-image{
-    width: 365px;
-    height: 300px;
+    width: 100%;
+    height: 290px;
     background-image: url('../assets/analisis/analisis2.webp');
       background-size: cover;
       background-position: center;
 }
 
 .analisis-third-image{
-    width: 365px;
-    height: 300px;
+    width: 100%;
+    height: 290px;
     background-image: url('../assets/analisis/analisis3.webp');
       background-size: cover;
       background-position: center;
@@ -136,7 +139,7 @@ text-decoration: none;
 /*************** Imagenes Grid ***************/
 
 .analisis-grid-first-image{
-    width: 160px;
+    width: 100%;
     height: 80px;
     background-image: url('../assets/analisis/analisis4.webp');
       background-size: cover;
@@ -144,7 +147,7 @@ text-decoration: none;
 }
 
 .analisis-grid-second-image{
-    width: 160px;
+    width: 100%;
     height: 80px;
     background-image: url('../assets/analisis/analisis5.webp');
       background-size: cover;
@@ -152,7 +155,7 @@ text-decoration: none;
 }
 
 .analisis-grid-third-image{
-    width: 160px;
+    width: 100%;
     height: 80px;
     background-image: url('../assets/analisis/analisis6.webp');
       background-size: cover;
@@ -160,14 +163,14 @@ text-decoration: none;
 }
 
 .analisis-grid-four-image{
-    width: 160px;
+    width: 100%;
     height: 80px;
     background-image: url('../assets/analisis/analisis7.webp');
       background-size: cover;
       background-position: center;
 }
 .analisis-grid-five-image{
-    width: 160px;
+    width: 100%;
     height: 80px;
     background-image: url('../assets/analisis/analisis8.webp');
       background-size: cover;
@@ -175,7 +178,7 @@ text-decoration: none;
 }
 
 .analisis-grid-six-image{
-    width: 160px;
+    width: 100%;
     height: 80px;
     background-image: url('../assets/analisis/analisis9.webp');
       background-size: cover;
@@ -200,6 +203,7 @@ text-decoration: none;
         grid-template-columns: repeat(1,minmax(0,1fr));
         padding-left:10px;
         padding-right: 10px;
+        
     }
 
       .analisis-post2{
@@ -241,18 +245,18 @@ text-decoration: none;
 
             /*************** Imagenes ***************/
 .analisis-first-image{
-    width: 365px;
-    height: 280px;
+    height: 230px;
+        width: 100%;
 }
 
 .analisis-second-image{
-    width: 365px;
-    height: 280px;
+    height: 230px;
+        width: 100%;
 }
 
 .analisis-third-image{
-    width: 365px;
-    height: 280px;
+    height: 230px;
+    width: 100%;
 }
 
 .analisis-post1 h1{
