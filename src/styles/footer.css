@@ -5,7 +5,7 @@
           margin-left:-8px;
           margin-right:-8px;
           margin-bottom: -8px;
-          padding-bottom: 30px;
+          padding-bottom: 50px;
   }
   
   .footer-cont{
@@ -16,17 +16,19 @@
   }
   
   .footer-grid{
-    padding-right: 2rem;
+    margin: 0 auto;
     display:grid;
     grid-template-columns: repeat(2,minmax(0,1fr));
         gap: 1rem;
+        border-bottom: solid;
+        border-top: solid;
+        border-width: 1px;
+        border-color: #dee1d463;
   }
   
   .footnav{
   
      padding-top: 40px;
-     margin-left: -60px;
-    
   }
   
   .footnav a {
@@ -42,11 +44,11 @@
   }
   
   .footnav a:hover {
-    color: #DDD937;
+    color: #97AAA0;
   }
   
   .footnav a.active {
-    color: #DDD937;
+    color: #97AAA0;
   }
   
   .footnav .icon {
@@ -54,16 +56,17 @@
   }
   
   .footer-img{
-    width: 250px;
-    height: 120px;
-    
+    width: 42%;
+    height: 7rem;
+    margin: 0 auto;
+   
   }
   
   .footer2-grid{
     padding-right: 2rem;
     display:grid;
     grid-template-columns: repeat(3,minmax(0,1fr));
-        gap: 1rem;
+        gap: 2rem;
   }
   
   .footer2-grid p{
@@ -79,8 +82,12 @@
   i {
     color: #DEE1D4;
   }
+
+  .terminos{
+    text-align: center!important;
+  }
   
-  @media screen and (min-width:300px) and (max-width:736px) {
+  @media screen and (min-width:300px) and (max-width:800px) {
     .footer-cont{
       width: auto;
       padding-left: 20px;
@@ -88,40 +95,44 @@
     }
     
     .footer-grid{
-      grid-template-columns: repeat(1,minmax(0,1fr));
-      padding-left:10px;
-      padding-right: 10px;
-    }
-    
-    .footer2-grid{
-      grid-template-columns: repeat(1,minmax(0,1fr));
-      padding-left:10px;
-      padding-right: 10px;
-    }
-    }
-
-    @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .footer-cont{
       width: auto;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-    
-    .footer-grid{
       grid-template-columns: repeat(1,minmax(0,1fr));
       padding-left:10px;
       padding-right: 10px;
     }
     
     .footer2-grid{
+      width: auto;
       grid-template-columns: repeat(1,minmax(0,1fr));
       padding-left:10px;
       padding-right: 10px;
     }
-}
 
-  
+    .footer-img{
+      width: 50%;
+      height: 100%;
+     margin-left: 6.5rem;
+    }
+
+    .footnav a {
+      float: left;
+      display: block;
+      color: #DEE1D4;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      margin-left: 1.2rem;
+      
+    }
+
+    .terminos{
+      text-align: center;
+    }
+
+    .footer2-grid{
+      text-align: center!important;
+    }
+
+    }
+
+   

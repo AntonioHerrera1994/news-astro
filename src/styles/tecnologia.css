@@ -137,9 +137,7 @@
 }
 
 @media screen and (min-width:1024px) and (max-width:1360px) {
-    .tec-first-image{
-        display:none;
-    }
+  
 }
 
 /*************** Pantalla grande ***************/
@@ -148,28 +146,29 @@
     .tec-cont{
         margin: 0 auto;
       overflow: hidden;
-      padding-right: 160px;
-      padding-left: 160px;
+      padding-right: 90px;
+      padding-left: 90px;
     
     }
     .tec-first-image{
-        width: 320px;
-        height: 320px;
+        height: 230px;
+        width: 100%;
     }
-    
+
     .tec-second-image{
-        width: 320px;
-        height: 320px;
+        height: 230px;
+        width: 100%;
     }
     
     .tec-third-image{
-        width: 320px;
-        height: 320px;
+        height: 230px;
+        width: 100%;
     }
     
     .tec-four-image{
-        width: 320px;
-        height: 320px;
+        height: 230px;
+        width: 100%;
+        
     }
     
 }
