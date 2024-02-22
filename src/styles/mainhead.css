@@ -255,7 +255,7 @@ and (orientation: portrait) {
 .first-image{
   margin:0 auto;
 height: auto;
-  width: 15rem;
+  width: auto;
 }
 
 .data h2{

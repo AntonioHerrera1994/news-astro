@@ -161,18 +161,18 @@ select{
     }
 
     .leido-first-image{
-        height: 290px;
-        width: 380px;
+        height: auto;
+        width: auto;
     }
     
     .leido-second-image{
-        height: 290px;
-        width: 380px;
+        height: auto;
+        width: auto;
     }
     
     .leido-third-image{
-        height: 290px;
-        width: 380px;
+        height: auto;
+        width: auto;
     }
 }
 
@@ -183,18 +183,18 @@ select{
  and (-webkit-min-device-pixel-ratio: 2)
  and (orientation: portrait) {
     .leido-first-image{
-        height: 250px;
-        width: 270px;
+        height: auto;
+        width: auto;
     }
 
     .leido-second-image{
-        height: 250px;
-        width: 270px;
+        height: auto;
+        width: auto;
     }
     
     .leido-third-image{
-        height: 250px;
-        width: 270px;
+        height: auto;
+        width: auto;
     }
     .text-grid h1{
         font-size: 1.6rem;
