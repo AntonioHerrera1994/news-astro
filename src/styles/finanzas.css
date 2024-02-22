@@ -157,6 +157,31 @@ font-size: 1rem;
         }
     }
 
+    @media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .finanzas-text-grid{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+padding-left:10px;
+padding-right: 10px; 
+    }
+
+    .finanzas-grid{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+padding-left:10px;
+padding-right: 10px; 
+            
+    }
+
+    .right-grid{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        padding-left:10px;
+        padding-right: 10px; 
+    }
+}
+
      /*************** Pantalla grande ***************/
 
     @media only screen and (min-width:1400px) {
