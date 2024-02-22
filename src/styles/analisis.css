@@ -207,63 +207,71 @@ text-decoration: none;
             }
 
             .analisis-grid-first-image{
-                width: 160px;
+                width: 150px;
                 height: 80px;
             }
             
             .analisis-grid-second-image{
-                width: 160px;
+                width: 150px;
                 height: 80px;
             }
             
             .analisis-grid-third-image{
-                width: 160px;
+                width: 150px;
                 height: 80px;
             }
             
             .analisis-grid-four-image{
-                width: 160px;
+                width: 150px;
                 height: 80px;
             }
             .analisis-grid-five-image{
-                width: 160px;
+                width: 150px;
                 height: 80px;
             }
             
             .analisis-grid-six-image{
-                width: 160px;
+                width: 150px;
                 height: 80px;
             }
 
             /*************** Imagenes ***************/
 .analisis-first-image{
     width: 365px;
-    height: 290px;
+    height: 280px;
 }
 
 .analisis-second-image{
     width: 365px;
-    height: 290px;
+    height: 280px;
 }
 
 .analisis-third-image{
     width: 365px;
-    height: 290px;
+    height: 280px;
 }
 
 .analisis-post1 h1{
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-right: 25px;
 }
 
 .analisis-post2 h1{
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-right: 25px;
 }
 
 .analisis-post3 h1{
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-right: 25px;
+}
+
+.sub-grid h1{
+    font-size: 1rem;
+    margin-right: 15px;
+    margin-left: 0px;
+
+    
 }
 }
 
