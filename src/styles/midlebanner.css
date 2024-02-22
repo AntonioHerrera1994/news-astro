@@ -75,7 +75,7 @@
         grid-template-columns: repeat(1,minmax(0,1fr));
         padding-left:10px;
         padding-right: 10px; 
-        padding-top: 4rem;
+        padding-top: 8rem;
         width: auto;
 
     }
@@ -85,7 +85,15 @@
     }
 
     .midle-grid h1{
-        font-size: 2.9rem;
+        font-size: 2rem;
+        margin:0rem 1rem;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .midle-grid p{
+        font-size: 1.1rem;
+        margin:0rem 1rem;
         margin-bottom: 60px;
         text-align: center;
     }
@@ -97,7 +105,10 @@
     }
 
     .midle-der{
-        margin:0;
+        margin-left:0;
+        margin-right:0;
+        margin-bottom:0;
+        margin-top:2.5rem;
     }
 
     .midle-der p{
