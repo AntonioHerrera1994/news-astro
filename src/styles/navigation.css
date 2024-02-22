@@ -217,19 +217,19 @@ color: #97AAA0;
   and (orientation: portrait) {
 
     .content{
-      margin-bottom: -4rem;
+      margin-bottom: -5rem;
     }
     .header-img{
       margin-top: -58px;
       height: 130px;
       width:130px;
-      margin-left: -18px;
+      margin-left: -18px; 
       margin-right: 2rem;
   }
 
 
     .movil-susc{
-      margin-top: -.5rem;
+      margin-top: -1rem;
       color: #DEE1D4;
       font-size: .9rem;
       border: solid;
@@ -238,7 +238,7 @@ color: #97AAA0;
       background-color: #97AAA0;
       border-radius: 25px;
       padding:  1rem;
-      margin-bottom: 125px;
+      margin-bottom: 130px;
       margin-right: 0;
     }
 
@@ -252,7 +252,7 @@ color: #97AAA0;
       border-color:#DEE1D4;
       border-radius: 25px;
       padding: 1rem;
-      margin-bottom: 125px;
+      margin-bottom: 130px;
     
     }
   }
