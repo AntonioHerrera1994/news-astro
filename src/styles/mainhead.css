@@ -254,8 +254,8 @@ and (orientation: portrait) {
 
 .first-image{
   margin:0 auto;
-height: 280px;
-width: 255px;
+height: auto;
+  width: 15ren;
 }
 
 .data h2{
@@ -273,23 +273,23 @@ width: 255px;
   }
 
   .second-image{
-    height: 160px;
-    width: 140px;
+    height: auto;
+  width: auto;
 }
 
 .third-image{
-  height: 160px;
-    width: 140px;
+  height: auto;
+  width: auto;
 }
 
 .four-image{
-  height: 160px;
-    width: 140px;
+  height: auto;
+  width: auto;
 }
 
 .five-image{
-  height: 160px;
-    width: 140px;
+  height: auto;
+  width: auto;
 }
 
 }
