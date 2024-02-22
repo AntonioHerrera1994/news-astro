@@ -154,10 +154,17 @@ margin-left:80px ;
       }
 
       .post-crypto-grid{
-        margin-top: 150px;
+        margin-top: 150rem;
         grid-template-columns: repeat(1,minmax(0,1fr));
         width: auto;
       }
+
+      .crypto-post-grid{
+        padding-left:10px;
+    padding-right: 10px;
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        width: auto;
+    }
 
       .crypto-post-grid p{
 
@@ -238,6 +245,4 @@ and (orientation: portrait) {
         height: 190px;
     }
 
- 
-    
 }
