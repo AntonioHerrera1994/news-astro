@@ -260,7 +260,7 @@ width: 255px;
 }
 
 .data h2{
-  font-size: .8rem;
+  font-size: .7rem;
 }
 
 .data h4{
@@ -270,6 +270,7 @@ width: 255px;
 .post-grid .data{
   margin-top: -12px;
   margin-left: 25px;    
+  margin-right: -10px;
   }
 
   .second-image{
