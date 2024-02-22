@@ -247,7 +247,7 @@ and (orientation: portrait) {
 }
 
 .main-cont{
-  margin-top: -70px;
+  margin-top: -50px;
   width: auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -256,7 +256,7 @@ and (orientation: portrait) {
 .first-image{
   margin:0 auto;
 height: 290px;
-width: 310px;
+width: 250px;
 }
 
 }
