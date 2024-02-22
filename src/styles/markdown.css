@@ -4,3 +4,11 @@
   padding-right: 140px;
   padding-left: 140px;
 }
+
+@media (max-width:768px) {
+  .postcontent{
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
