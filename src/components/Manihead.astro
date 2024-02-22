@@ -49,7 +49,7 @@ import '../styles/mainhead.css'
         <div class="post-grid">
             <div class="four-image"></div>
             <div class="data">
-                <h4 class="meta">{Fourpost.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
+                <h4 class="meta">{Fourpost.map((post) =><h4>{post.frontmatter.author} | {post.frontmatter.pubDate}</h4>)}</h4>
                 <h2>{Fourpost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
                 <h4>{Fourpost.map((post) =><h4>{post.frontmatter.category} | 8 mins read</h4>)}</h4>
             </div>
@@ -58,7 +58,7 @@ import '../styles/mainhead.css'
         <div class="post-grid">
             <div class="five-image"></div>
             <div class="data">
-                <h4 class="meta">{Fourpost.map((post) =><p>{post.frontmatter.author} | {post.frontmatter.pubDate}</p>)}</h4>
+                <h4 class="meta">{Fourpost.map((post) =><h4>{post.frontmatter.author} | {post.frontmatter.pubDate}</h4>)}</h4>
                 <h2>{Fivepost.map((post) =><a href={post.url}>{post.frontmatter.title}</a>)}</h2>
                 <h4>{Fivepost.map((post) =><h4>{post.frontmatter.category} | 8 mins read</h4>)}</h4>
             </div>
