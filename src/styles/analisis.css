@@ -278,8 +278,6 @@ text-decoration: none;
     font-size: 1rem;
     margin-right: 15px;
     margin-left: 10px;
-
-    
 }
 }
 
@@ -288,19 +286,41 @@ text-decoration: none;
     .analisis-cont{
         margin: 0 auto;
       overflow: hidden;
-      padding-right: 160px;
-      padding-left: 160px;
+      padding-right: 90px;
+      padding-left: 90px;
     
     }
 
-    .analisis-image{
-        width: 480px;
-        height: 400px;   
+    .analisis-first-image{
+        height: 230px;
+            width: 100%;
+    }
+    
+    .analisis-second-image{
+        height: 230px;
+            width: 100%;
+    }
+    
+    .analisis-third-image{
+        height: 230px;
+        width: 100%;
     }
 
-    .subgrid-image{
-        width: 200px;
-        height: 100px;
+
+
+    .analisis-post1 h1{
+        font-size: 1.3rem;
+        margin-right: 25px;
+    }
+    
+    .analisis-post2 h1{
+        font-size: 1.3rem;
+        margin-right: 25px;
+    }
+    
+    .analisis-post3 h1{
+        font-size: 1.3rem;
+        margin-right: 25px;
     }
 
     .sub-grid h1{
@@ -309,6 +329,43 @@ text-decoration: none;
         margin-left: -45px;
         
     }
+
+    .analisis-grid-first-image{
+        width: 100%;
+        height: 5.5rem;
+    }
+    
+    .analisis-grid-second-image{
+        width: 100%;
+        height: 5.5rem;
+    }
+    
+    .analisis-grid-third-image{
+        width: 100%;
+        height: 5.5rem;
+    }
+    
+    .analisis-grid-four-image{
+        width: 100%;
+        height: 5.5rem;
+    }
+    .analisis-grid-five-image{
+        width: 100%;
+        height: 5.5rem;
+    }
+    
+    .analisis-grid-six-image{
+        width: 100%;
+        height: 5.5rem;
+    }
+
+    .sub-grid h1{
+        font-size: 1rem;
+        margin-top: .5rem;
+        margin-right: .7rem;
+        margin-left: .2rem;
+    }
+
    
 }
 

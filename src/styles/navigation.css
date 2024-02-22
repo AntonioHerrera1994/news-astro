@@ -18,8 +18,9 @@
 }
 
 .header-img{
-    margin-top: -17px;
+    margin-top: -1.3rem;
     width: 30%;
+    height: 5rem;
    
 }
 
@@ -66,9 +67,8 @@ color: #97AAA0;
 }
 
 .nav-links .busqueda-menu{
-  margin-left: 85px;
-  padding-left: 30px;
-  padding-right: 30px;
+  margin-left: 50px;
+  padding: 15px;
   border:solid;
   border-width: 1px;
   border-color: #DEE1D4;
@@ -80,8 +80,7 @@ color: #97AAA0;
 .nav-links .suscribirme-menu{
   color: #0F1416;
   margin-left: 18px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 15px;
   border:solid;
   border-width: 1px;
   border-color: #97AAA0;
@@ -209,59 +208,28 @@ color: #97AAA0;
   
   }
 
-  /***************@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
-    .content{
-      height: auto;
-      margin-bottom: -5rem;
-    }
-    .header-img{
-      margin-top: -58px;
-      height: auto;
-      height: auto;
-      margin-left: -18px; 
-      margin-right: 2rem;
-  }
-
-
-    .movil-susc{
-      margin-top: -1rem;
-      color: #DEE1D4;
-      font-size: .9rem;
-      margin-bottom: 130px;
-      margin-right: 0;
-    }
-
-    .bi-search{
-      margin-left: .1rem;
-      margin-right: 0;
-    margin-top: -4px;
-      font-size: .9rem;
-      padding: 1rem;
-      margin-bottom: 130px;
-    
-    }
-  }
-  /*************** Iphone *************/
+  
 
   @media only screen and (min-width:1400px) {
 
     .content{
       width: auto;
-      padding-left: 160px;
-      padding-right: 160px;
-    }
-    .header-img{
-        width: 25%;
+      padding-left: 140px;
+      padding-right: 140px;
     }
 
   
+    .header-img{
+      margin-top: -.5rem;
+      height: 100%;
+      width: 30%;
+  }
+
+
+
+  
     .nav-links {
-      margin-left: -35rem;
+      margin-left: -22rem;
       margin-top: -3px;
       display: block;
       position: static;
@@ -270,11 +238,11 @@ color: #97AAA0;
     }
 
     .nav-links a{
-font-size: 1.1rem;
+font-size: 1rem;
     }
 
     .nav-links .busqueda-menu{
-      margin-left: 300px;
+      margin-left: 1rem;
 
     }
 

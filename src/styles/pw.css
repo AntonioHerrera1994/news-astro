@@ -103,15 +103,15 @@ line-height: 30px;
   .pw-cont{
     margin: 0 auto;
   overflow: hidden;
-  padding-right: 160px;
-  padding-left: 160px;
+  padding-right: 90px;
+  padding-left: 90px;
 
 }
 
 .pw-first-image{
-  width: 750px;
-  height: 420px;
-}
+  width: 100%;
+  height: 30rem;
+ }
 
 
 }

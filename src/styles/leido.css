@@ -211,22 +211,26 @@ select{
     .leido-cont{
         margin: 0 auto;
       overflow: hidden;
-      padding-right: 160px;
-      padding-left: 160px;
+      padding-right: 90px;
+      padding-left: 90px;
     }
 
     .leido-first-image{
-        height: 360px;
-        width: 310px;
+        height: 340px;
+        width: 100%;
     }
     
     .leido-second-image{
-        height: 360px;
-        width: 310px;
+        height: 340px;
+        width: 100%;
     }
-    
+        
     .leido-third-image{
-        height: 360px;
-        width: 310px;
+        height: 340px;
+        width: 100%;
+    }
+    .currency{
+        margin-left: 21rem;
+        margin-top: 3.8rem;
     }
 }

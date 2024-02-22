@@ -295,29 +295,96 @@ height: auto;
 
 }
 *************/
+@media screen and (min-width:801px) and (max-width:1023) {
+
+  .banner h1{
+   display:none;
+}
+
+  .first-image{
+    width: 92%;
+    height: auto;
+    
+  }
+
+  .second-image{
+    height: auto;
+    width: auto;
+  }
+  
+  .third-image{
+    height: auto;
+    width: auto;
+  }
+  
+  .four-image{
+    height: auto;
+    width: auto;
+  }
+  
+  .five-image{
+    height: auto;
+    width: auto;
+  }
+}
 
 
 /************** Pantallas grandes ***************/
 
+@media screen and (min-width:1024px) and (max-width:1360px) {
+  .first-image{
+    width: 92%;
+    height: 50rem;
+    
+  }
+
+  .second-image{
+    height: auto;
+    width: auto;
+  }
+  
+  .third-image{
+    height: auto;
+    width: auto;
+  }
+  
+  .four-image{
+    height: auto;
+    width: auto;
+  }
+  
+  .five-image{
+    height: auto;
+    width: auto;
+  }
+  
+}
+
+
+
+
 @media only screen and (min-width:1400px) {
+   .post-grid h2{
+    font-size: 1rem;
+   }
     .first-image{
        
         height: 676px;
       width: 460px;
     }
-    .img-post{
-      height: auto;
-      width: auto;
+    .first-image{
+      width: 92%;
+      height: 50rem;
+      
     }
-
     .banner .meta{
         margin-top: 250px;
     }
     .main-cont{
         margin: 0 auto;
       overflow: hidden;
-      padding-right: 160px;
-      padding-left: 160px;
+      padding-right: 90px;
+      padding-left: 90px;
       
     }
 
