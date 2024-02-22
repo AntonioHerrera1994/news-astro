@@ -63,7 +63,7 @@
 }
 
 /************** Movil **************/
-@media screen and (min-width:360px) and (max-width:736px) {
+@media screen and (min-width:320px) and (max-width:736px) {
     .midle-cont{
         width: auto;
             padding-left: 20px;
