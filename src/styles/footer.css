@@ -9,12 +9,10 @@
   }
   
   .footer-cont{
-    width: 1250px;
     margin: 0 auto;
-    overflow: hidden;
-  
-    padding-right: 75px;
-    padding-left: 75px;
+  overflow: hidden;
+  padding-right: 50px;
+  padding-left: 50px;
   }
   
   .footer-grid{
