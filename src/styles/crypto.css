@@ -161,10 +161,10 @@ margin-left:80px ;
 
       .crypto-post-grid p{
 
-        margin:auto;  
+        margin:0;  
     }
     .crypto-post-grid a{
-        margin-right: -10rempx;
+        margin-right: -10rem;
     }
 
     .crypto-first-image{
@@ -181,7 +181,10 @@ margin-left:80px ;
     }
     
 
-    
+    .rigt-crypto{
+        margin-left:0 ;
+        margin-top: 3rem;
+        }
 
 }
 
