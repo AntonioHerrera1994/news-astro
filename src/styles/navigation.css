@@ -125,7 +125,7 @@ color: #97AAA0;
   }
 }
 
-@media screen and (min-width:300px) and (max-width:800px) {
+@media screen and (min-width:300px) and (max-width:1024px) {
 
     .content{
     
