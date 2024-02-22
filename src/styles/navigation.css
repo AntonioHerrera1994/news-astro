@@ -179,21 +179,31 @@ color: #97AAA0;
 
     
     .movil-susc{
-      display:none;
+      margin-top: -.4rem;
+      color: #DEE1D4;
+      font-size: .9rem;
+      border: solid;
+      border-width: 1px;
+      border-color:#97AAA0;
+      background-color: #97AAA0;
+      border-radius: 25px;
+      padding: 11px 8px;
+      margin-bottom: 3.7rem;
+      margin-right: -1.5rem;
       
     }
 
     .bi-search{
-      margin-left: 40px;
-      margin-right: -10px;
+      margin-left: 2.5rem;
+      margin-right: -.6rem;
     margin-top: -4px;
       font-size: .9rem;
       border: solid;
       border-width: 1px;
       border-color:#DEE1D4;
       border-radius: 25px;
-      padding: 7px;
-      margin-bottom: 61px;
+      padding: .5rem;
+      margin-bottom: 3.8px;
     
     }
   
