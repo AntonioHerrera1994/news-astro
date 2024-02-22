@@ -147,6 +147,7 @@ margin-left:80px ;
       }
   
       .crypto-grid{
+        width: auto;
         grid-template-columns: repeat(1,minmax(0,1fr));
     padding-left:10px;
     padding-right: 10px;
@@ -155,8 +156,7 @@ margin-left:80px ;
       .post-crypto-grid{
         margin-top: 80px;
         grid-template-columns: repeat(1,minmax(0,1fr));
-    padding-left:10px;
-    padding-right: 10px;
+        width: auto;
       }
 
       .crypto-post-grid p{
@@ -169,7 +169,7 @@ margin-left:80px ;
 
 }
 
-/*************** Iphone *************/
+/*************** 
 @media only screen 
 and (min-device-width: 320px) 
 and (max-device-width: 480px)
@@ -187,7 +187,7 @@ and (orientation: portrait) {
     padding-left:10px;
     padding-right: 10px;
       }
-}
+}Iphone *************/
 
 /*************** Pantalla grande ***************/
 

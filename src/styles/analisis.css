@@ -20,6 +20,10 @@
         gap: 5rem; 
 }
 
+.analisis-text-grid h1{
+    font-size: 1.8rem;
+}
+
 .analisis-grid{
     margin-top:-50px;
     padding: 2rem;
