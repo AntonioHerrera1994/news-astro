@@ -193,35 +193,6 @@ font-size: 1.1rem;
       
     }
 
-   /* @media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) {
-    .finanzas-text-grid{
-        grid-template-columns: repeat(1,minmax(0,1fr));
-padding-left:10px;
-padding-right: 10px; 
-    }
-
-    .finanzas-grid{
-        grid-template-columns: repeat(1,minmax(0,1fr));
-padding-left:10px;
-padding-right: 10px; 
-            
-    }
-
-    
-
-    .right-grid{
-        grid-template-columns: repeat(1,minmax(0,1fr));
-        padding-left:10px;
-        padding-right: 10px; 
-    }   
-  
-    
-   
-}*/
 
      /*************** Pantalla grande ***************/
 
@@ -230,8 +201,8 @@ padding-right: 10px;
         .finanzas-cont{
             margin: 0 auto;
           overflow: hidden;
-          padding-right: 160px;
-          padding-left: 160px;
+          padding-right: 90px;
+          padding-left: 90px;
         
         }
 
@@ -244,28 +215,28 @@ padding-right: 10px;
                 }
 
                 .finanzas-first-image{
-                    width: 730px;
-                    height: 450px;
+                    width: 100%;
+                    height: 23rem;
                 }
             
                 .finanzas-grid-first-image{
-                    width: 330px;
-                    height: 200px;
+                    height: 14rem;
+                    width: 100%;
                 }
             
                 .finanzas-grid-second-image{
-                    width: 330px;
-                    height: 200px;
+                    height: 14rem;
+                    width: 100%;
                 }
             
                 .finanzas-grid-third-image{
-                    width: 330px;
-                    height: 200px;
+                    height: 14rem;
+                    width: 100%;
                 }
             
                 .finanzas-grid-four-image{
-                    width: 330px;
-                    height: 200px;
+                    height: 14rem;
+                    width: 100%;
                 }
     }
    

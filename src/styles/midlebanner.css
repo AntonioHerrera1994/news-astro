@@ -143,17 +143,18 @@
     .midle-grid{
         margin-top:-50px;
         padding: 3rem 6rem;
-        background-position: right 20% bottom 17%;
+       
     }
 
     .midle-izq{
-        margin-right: 170px;
-        margin-top: 80px;
+        margin: auto;
     }
     
     .midle-der{
-        margin-top: 270px;
-        margin-left: 240px;
+        margin-left:8rem;
+        margin-right:0;
+        margin-bottom:0;
+        margin-top:15.8rem;
     }
 
 }
