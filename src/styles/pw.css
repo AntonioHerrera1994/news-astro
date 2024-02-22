@@ -61,8 +61,7 @@ line-height: 22px;
 /*************** Imagen***************/
 
 .pw-first-image{
-  width: 500px;
-  height: 414px;
+ width: 100%;
   background-image: url('../assets/pw/pw1.png');
     background-size: cover;
     background-position: center;
