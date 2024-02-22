@@ -160,6 +160,7 @@ margin-left:80px ;
       }
 
       .crypto-post-grid{
+        
         padding-left:10px;
     padding-right: 10px;
         grid-template-columns: repeat(1,minmax(0,1fr));
@@ -190,7 +191,7 @@ margin-left:80px ;
 
     .rigt-crypto{
         margin-left:0 ;
-       margin-top: 3rem;
+        margin-top: 12.5rem;
         }
 
 }
