@@ -136,17 +136,16 @@ color: #97AAA0;
 
     .head-grid{
      
-      grid-template-columns: repeat(4,minmax(0,1fr));
+      grid-template-columns: repeat(3,minmax(0,1fr));
       padding-left:10px;
        padding-right: 10px;
     }
 
     .header-img{
-        margin-top: -.3rem;
-        height: auto;
+        margin-top: -.8rem;
         height: auto;
         margin-left: 0;
-        width: auto;
+        width: 100%;
     }
 
     .nav-links {
@@ -180,7 +179,7 @@ color: #97AAA0;
 
     
     .movil-susc{
-      margin-top: -.4rem;
+      margin-top: -.5rem;
       color: #DEE1D4;
       font-size: .9rem;
      /* border: solid;
@@ -197,7 +196,7 @@ color: #97AAA0;
     .bi-search{
       margin-left: 2.5rem;
       margin-right: -.6rem;
-    margin-top: -4px;
+    margin-top: -.3rem;
       font-size: .9rem;
       /*border: solid;
       border-width: 1px;
