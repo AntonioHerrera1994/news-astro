@@ -115,7 +115,20 @@
     }
 
     .tec-first-image{
-        width: 100%;
+        width: 90%;
+    }
+
+    .tec-second-image{
+        width: 90%;
+    }
+    
+    .tec-third-image{
+        width: 90%;
+    }
+    
+    .tec-four-image{
+        width: 90%;
+       
     }
 }
 
