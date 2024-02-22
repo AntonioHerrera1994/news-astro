@@ -114,7 +114,9 @@
         width: auto;
     }
 
-    
+    .tec-first-image{
+        width: 100%;
+    }
 }
 
 /*************** Pantalla grande ***************/
