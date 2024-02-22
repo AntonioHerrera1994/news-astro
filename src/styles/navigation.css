@@ -196,14 +196,14 @@ color: #97AAA0;
     .bi-search{
       margin-left: 40px;
       margin-right: -10px;
-      margin-bottom: 45px;
+    margin-top: -2px;
       font-size: .9rem;
       border: solid;
       border-width: 1px;
       border-color:#DEE1D4;
       border-radius: 25px;
       padding: 7px;
-      margin-bottom: 57px;
+      margin-bottom: 59px;
     
     }
   
