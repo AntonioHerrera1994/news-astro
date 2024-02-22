@@ -196,8 +196,8 @@ margin-left: -20px;
 
 .first-image{
      margin:0 auto;
-  height: 290px;
-  width: 350px;
+  height: auto;
+  width: auto;
 }
 
 
@@ -212,23 +212,23 @@ margin-left: -20px;
 }
 
 .second-image{
-    height: 155px;
-    width: 135px;
+  height: auto;
+  width: auto;
 }
 
 .third-image{
-  height: 155px;
-  width: 135px;
+  height: auto;
+  width: auto;
 }
 
 .four-image{
-  height: 155px;
-  width: 135px;
+  height: auto;
+  width: auto;
 }
 
 .five-image{
-  height: 155px;
-  width: 135px;
+  height: auto;
+  width: auto;
 }
 
 }

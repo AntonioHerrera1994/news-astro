@@ -143,8 +143,8 @@ color: #97AAA0;
 
     .header-img{
         margin-top: -58px;
-        height: 140px;
-        width:140px;
+        height: auto;
+        height: auto;
         margin-left: -17px;
     }
 
