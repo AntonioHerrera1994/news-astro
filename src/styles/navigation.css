@@ -234,12 +234,12 @@ color: #97AAA0;
       background-color: #97AAA0;
       border-radius: 25px;
       padding:  2rem;
-      margin-bottom: 70px;
+      margin-bottom: 90px;
       margin-right: 0;
     }
 
     .bi-search{
-      margin-left: 1rem;
+      margin-left: .1rem;
       margin-right: 0;
     margin-top: -4px;
       font-size: .9rem;
@@ -248,7 +248,7 @@ color: #97AAA0;
       border-color:#DEE1D4;
       border-radius: 25px;
       padding: 1rem;
-      margin-bottom: 70px;
+      margin-bottom: 90px;
     
     }
   }
