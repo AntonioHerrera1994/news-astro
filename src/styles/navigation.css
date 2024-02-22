@@ -179,17 +179,7 @@ color: #97AAA0;
 
     
     .movil-susc{
-      margin-top: -.4rem;
-      color: #DEE1D4;
-      font-size: .9rem;
-      border: solid;
-      border-width: 1px;
-      border-color:#97AAA0;
-      background-color: #97AAA0;
-      border-radius: 25px;
-      padding: 11px 8px;
-      margin-bottom: 3.7rem;
-      margin-right: -1.5rem;
+      display:none;
       
     }
 
