@@ -94,6 +94,12 @@ text-align: justify;
 line-height: 30px;
 }
 
+
+
+ .pw-first-image{
+  height: auto;
+  width: auto;
+}
 }
 
 /*************** Pantalla grande ***************/
