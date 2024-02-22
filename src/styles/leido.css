@@ -127,7 +127,7 @@ select{
 
 /************** Movil ***************/
 
-@media (max-width:768px) {
+@media screen and (min-width:300px) and (max-width:800px) {
     .leido-cont{
         width: auto;
         padding-left: 20px;
@@ -175,6 +175,18 @@ select{
         width: 380px;
     }
 }
+
+ /*************** Iphone *************/
+ @media only screen 
+ and (min-device-width: 320px) 
+ and (max-device-width: 480px)
+ and (-webkit-min-device-pixel-ratio: 2)
+ and (orientation: portrait) {
+    .leido-first-image{
+        height: 280px;
+width: 255px;
+    }
+ }
 
 /************** Pantalla grande ***************/
 

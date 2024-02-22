@@ -5,8 +5,21 @@
   padding-left: 140px;
 }
 
-@media (max-width:768px) {
+@media screen and (min-width:300px) and (max-width:800px) {
   .postcontent{
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
+
+/*************** Iphone *************/
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .postcontent{
     width: auto;
     padding-left: 20px;
     padding-right: 20px;
