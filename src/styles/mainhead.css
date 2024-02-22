@@ -304,9 +304,8 @@ width: 255px;
       width: 460px;
     }
     .img-post{
-        width: 68%;
-        height: 86%;
-        margin-left: 50px;
+      height: auto;
+      width: auto;
     }
 
     .banner .meta{
@@ -329,26 +328,26 @@ width: 255px;
 
     .second-image{
    
-      height: 150px;
-    width: 220px;
+      height: auto;
+      width: auto;
   }
   
   .third-image{
    
-      height: 150px;
-      width: 220px;
+    height: auto;
+    width: auto;
   }
   
   .four-image{
       
-      height: 150px;
-      width: 220px;
+    height: auto;
+    width: auto;
   }
   
   .five-image{
     
-      height: 150px;
-      width: 220px;
+    height: auto;
+    width: auto;
   }
    
 }
