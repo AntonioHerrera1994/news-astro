@@ -9,15 +9,20 @@ import '../styles/footer.css'
 import {Image} from 'astro:assets';
 ---
 
+<body>
+
+    <Navigation />
+    <div class="postcontent">
+        <img src={frontmatter.image} alt="" class="image"
+         />
+        <h1>{frontmatter.title}</h1>
+        <p>{frontmatter.author}</p>
+        <slot />
+    </div>
+    
+</body>
 
 
-<div class="postcontent">
-    <img src={frontmatter.image} alt="" class="image"
-     />
-    <h1>{frontmatter.title}</h1>
-    <p>{frontmatter.author}</p>
-    <slot />
-</div>
 
 
 
