@@ -43,6 +43,7 @@
   column-count: 2;
 column-gap: 20px;
 text-align: justify;
+line-height: 22px;
 }
 
 .pw-pst a{

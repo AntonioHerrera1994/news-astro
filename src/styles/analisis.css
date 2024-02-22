@@ -179,7 +179,7 @@ text-decoration: none;
 }
 /*************** Movil ***************/
 
-@media screen and (min-width:360px) and (max-width:736px) {
+@media (max-width:768px) {
     .analisis-cont{
         width: auto;
         padding-left: 20px;
@@ -205,6 +205,66 @@ text-decoration: none;
         .analisis-post3{
             margin-top: 30px;
             }
+
+            .analisis-grid-first-image{
+                width: 160px;
+                height: 80px;
+            }
+            
+            .analisis-grid-second-image{
+                width: 160px;
+                height: 80px;
+            }
+            
+            .analisis-grid-third-image{
+                width: 160px;
+                height: 80px;
+            }
+            
+            .analisis-grid-four-image{
+                width: 160px;
+                height: 80px;
+            }
+            .analisis-grid-five-image{
+                width: 160px;
+                height: 80px;
+            }
+            
+            .analisis-grid-six-image{
+                width: 160px;
+                height: 80px;
+            }
+
+            /*************** Imagenes ***************/
+.analisis-first-image{
+    width: 365px;
+    height: 290px;
+}
+
+.analisis-second-image{
+    width: 365px;
+    height: 290px;
+}
+
+.analisis-third-image{
+    width: 365px;
+    height: 290px;
+}
+
+.analisis-post1 h1{
+    font-size: 1rem;
+    margin-right: 25px;
+}
+
+.analisis-post2 h1{
+    font-size: 1rem;
+    margin-right: 25px;
+}
+
+.analisis-post3 h1{
+    font-size: 1rem;
+    margin-right: 25px;
+}
 }
 
 /*************** Pantalla grande ***************/
