@@ -232,7 +232,7 @@ margin-left: -20px;
 
 }
 
-/*************** Iphone *************/
+/*************** 
 @media only screen 
 and (min-device-width: 320px) 
 and (max-device-width: 480px)
@@ -293,6 +293,7 @@ height: auto;
 }
 
 }
+*************/
 
 
 /************** Pantallas grandes ***************/
