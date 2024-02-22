@@ -67,7 +67,7 @@ text-align: justify;
     background-position: center;
 }
 
-/*************** Movil***************/
+/*************** Movil ***************/
 
 @media (max-width:768px) {
   .pw-cont{
@@ -89,14 +89,15 @@ padding-right: 10px;
  .pw-pst p{
   column-count: 1;
 column-gap: 20px;
-text-align: left;
+text-align: justify;
+line-height: 15px;
 }
 
 
 
  .pw-first-image{
-  width: 360px;
-  height: 350px;
+  height: 290px;
+        width: 380px;
 }
 }
 
