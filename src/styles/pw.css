@@ -97,8 +97,8 @@ line-height: 30px;
 
 
  .pw-first-image{
-  height: 290px;
-        width: 354px;
+  height: auto;
+  width: auto;
 }
 }
 
