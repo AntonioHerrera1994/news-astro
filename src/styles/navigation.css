@@ -142,10 +142,11 @@ color: #97AAA0;
     }
 
     .header-img{
-        margin-top: -58px;
+        margin-top: -.3rem;
         height: auto;
         height: auto;
-        margin-left: -17px;
+        margin-left: 0;
+        width: auto;
     }
 
     .nav-links {
@@ -209,8 +210,7 @@ color: #97AAA0;
   
   }
 
-  /*************** Iphone *************/
-  @media only screen 
+  /***************@media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
@@ -247,6 +247,7 @@ color: #97AAA0;
     
     }
   }
+  /*************** Iphone *************/
 
   @media only screen and (min-width:1400px) {
 
