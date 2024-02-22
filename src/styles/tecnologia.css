@@ -100,7 +100,7 @@
 
 /*************** Movil ***************/
 
-@media screen and (min-width:360px) and (max-width:736px) {
+@media screen and (min-width:320px) and (max-width:736px) {
     .tec-cont{
         width: auto;
             padding-left: 20px;
@@ -111,6 +111,31 @@
         grid-template-columns: repeat(1,minmax(0,1fr));
         padding-left:10px;
         padding-right: 10px; 
+        width: auto;
+    }
+
+    .tec-first-image{
+        width: auto;
+        height: auto;
+        
+    }
+    
+    .tec-second-image{
+        width: auto;
+        height: auto;
+        
+    }
+    
+    .tec-third-image{
+        width: auto;
+        height: auto;
+      
+    }
+    
+    .tec-four-image{
+        width: auto;
+        height: auto;
+       
     }
 }
 
