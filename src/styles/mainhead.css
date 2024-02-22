@@ -269,8 +269,28 @@ width: 255px;
 
 .post-grid .data{
   margin-top: -12px;
-  margin-left: -20px;    
+  margin-left: 80px;    
   }
+
+  .second-image{
+    height: 155px;
+    width: 135px;
+}
+
+.third-image{
+  height: 155px;
+  width: 135px;
+}
+
+.four-image{
+  height: 155px;
+  width: 135px;
+}
+
+.five-image{
+  height: 155px;
+  width: 135px;
+}
 
 }
 
