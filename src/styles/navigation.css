@@ -125,7 +125,7 @@ color: #97AAA0;
   }
 }
 
-@media screen and (min-width:360px) and (max-width:736px) {
+@media screen and (min-width:300px) and (max-width:736px) {
 
     .content{
     
@@ -145,7 +145,7 @@ color: #97AAA0;
         margin-top: -56px;
         height: 140px;
         width:140px;
-        margin-left: -8px;
+        margin-left: -12px;
     }
 
     .nav-links {
