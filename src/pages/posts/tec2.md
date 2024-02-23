@@ -6,13 +6,25 @@ pubDate: 'Noviembre 06,2024'
 description: 'Elon Musk ha revelado Grok, la primera tecnología de la nueva empresa de inteligencia artificial de Musk, xAI.'
 author: 'Chava Elizalde - CryptoWolf'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
+    url: 'https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/tecnologia/tec2.webp'
     alt: 'El logotipo completo de Astro.'
 tags: ["tecnologia"]
 category: Tecnología
 ---
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/tecnologia/tec2.webp" alt="Descripción de la imagen" width="100%">
+</p>
 
-Elon Musk ha revelado Grok, la primera tecnología de la nueva empresa de inteligencia artificial de Musk, xAI. Grok, según la compañía, se inspira en “Guía del autoestopista galáctico“. Supuestamente tiene “un toque de ingenio“, “una actitud rebelde” y debe responder a las “preguntas picantes” que otros sistemas de inteligencia artificial podrían evitar, según un comunicado de xAI.
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Tecnología</a></span>
+
+
+<p style="font-size:2rem;">Elon Musk presenta el chatbot ‘Grok’ para competir con ChatGPT y otros</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">Elon Musk ha revelado Grok, la primera tecnología de la nueva empresa de inteligencia artificial de Musk, xAI. Grok, según la compañía, se inspira en “Guía del autoestopista galáctico“. </p>
+
+Supuestamente tiene “un toque de ingenio“, “una actitud rebelde” y debe responder a las “preguntas picantes” que otros sistemas de inteligencia artificial podrían evitar, según un comunicado de xAI.
 
 Previo al lanzamiento, Musk publicó en X, antes conocido como Twitter, un ejemplo de Grok respondiendo a una solicitud de una receta paso a paso para la fabricación de cocaína.
 

@@ -6,12 +6,26 @@ pubDate: ' Febrero 01, 2024'
 description: 'Celsius enviará más de $3 mil millones a sus acreedores mientras la bancarrota de la empresa se cierra oficialmente.'
 author: 'Chava Elizalde - CryptoWolf'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
+    url: 'https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/finanzas/finanzas1.webp'
     alt: 'El logotipo completo de Astro.'
 tags: ["finanzas"]
 category: Finanzas
 ---
-La distribución se realizará a través de PayPal y Coinbase
+
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/finanzas/finanzas1.webp" alt="Descripción de la imagen" width="100%">
+</p>
+
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Finanzas</a></span>
+
+
+<p style="font-size:2rem;">Celsius distribuirá $3 mil millones en criptomonedas a acreedores mientras emerge de la bancarrota</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">La distribución se realizará a través de PayPal y Coinbase</p>
+
+
 Celsius enviará más de $3 mil millones a sus acreedores mientras la bancarrota de la empresa se cierra oficialmente.
 
 Además del efectivo, los acreedores recibirán una participación en la nueva operación minera de Ionic Digital Inc., según declaraciones de la compañía el miércoles. Aproximadamente el 98% de los acreedores de Celsius Network aprobaron el plan después de 18 meses en el tribunal de quiebras. Se espera que Ionic se convierta en una empresa de cotización pública una vez que obtenga las aprobaciones necesarias.

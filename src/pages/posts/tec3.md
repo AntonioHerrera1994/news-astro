@@ -6,12 +6,24 @@ pubDate: 'Septiembre 18,2024'
 description: 'La aplicación de mensajería elige a TON como su infraestructura oficial Web3, otorgándole promoción exclusiva en su interfaz de usuario.'
 author: 'Chava Elizalde - CryptoWolf'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
+    url: 'https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/tecnologia/tec3.webp'
     alt: 'El logotipo completo de Astro.'
 tags: ["tecnologia"]
 category: Tecnología
 ---
-La aplicación de mensajería elige a TON como su infraestructura oficial Web3, otorgándole promoción exclusiva en su interfaz de usuario.
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/tecnologia/tec3.webp" alt="Descripción de la imagen" width="100%">
+</p>
+
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Tecnología</a></span>
+
+
+<p style="font-size:2rem;">Telegram respaldará proyecto TON; Token experimenta un impulso</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">La aplicación de mensajería elige a TON como su infraestructura oficial Web3, otorgándole promoción exclusiva en su interfaz de usuario.</p>
+
 La popular aplicación de mensajería, Telegram, ha dado su respaldo a la red TON como la blockchain de elección para su infraestructura Web3, y la integrará en la interfaz de usuario de la aplicación. Toncoin (TON), el token nativo de la blockchain, experimentó un aumento del 6.5% en tan solo 30 minutos después de esta noticia.
 
 El monedero Web3 basado en TON, que ya está disponible como un bot independiente en Telegram y cuenta con 3 millones de usuarios registrados, se está integrando en la aplicación y estará disponible para los 800 millones de usuarios a través de sus ajustes. Una versión auto custodial llamada TON Space se está implementando para todos los usuarios de Telegram fuera de los Estados Unidos. La implementación debería completarse para noviembre, según lo anunciado por la Fundación TON.

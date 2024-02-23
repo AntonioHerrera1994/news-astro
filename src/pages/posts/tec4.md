@@ -6,13 +6,25 @@ pubDate: 'Septiembre 14,2024'
 description: 'La compañía afirma haber realizado pagos multimillonarios a ejecutivos, incluyendo al fundador Sam Bankman-Fried, antes de declararse en bancarrota el año pasado.'
 author: 'Chava Elizalde - CryptoWolf'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
+    url: 'https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/tecnologia/tec4.webp'
     alt: 'El logotipo completo de Astro.'
 tags: ["tecnologia"]
 category: Tecnología
 ---
 
-La compañía afirma haber realizado pagos multimillonarios a ejecutivos, incluyendo al fundador Sam Bankman-Fried, antes de declararse en bancarrota el año pasado.
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/tecnologia/tec4.webp" alt="Descripción de la imagen" width="100%">
+</p>
+
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Tecnología</a></span>
+
+
+<p style="font-size:2rem;">FTX Posee $1.16 mil millones en SOL, $200 millones en bienes raíces en las Bahamas, según Documento Judicial</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">La compañía afirma haber realizado pagos multimillonarios a ejecutivos, incluyendo al fundador Sam Bankman-Fried, antes de declararse en bancarrota el año pasado.</p>
+
 El patrimonio de la ahora insolvente FTX ha reunido alrededor de $7 mil millones en activos, lo que incluye $1.16 mil millones en tokens de Solana (SOL) y $560 millones en Bitcoin (BTC), según un documento judicial presentado el lunes.
 
 El informe detalla los pagos multimillonarios realizados por la compañía, anteriormente una de las principales bolsas de criptomonedas del mundo, a ejecutivos de alto rango, incluido su fundador Sam Bankman-Fried, antes de declararse en bancarrota en noviembre.

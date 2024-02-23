@@ -6,13 +6,26 @@ pubDate: 'Diciembre 07,2024'
 description: 'Esta semana, Advanced Micro Devices (AMD) ha experimentado un ascenso del 0.62%, con sus acciones mostrando un crecimiento constante.'
 author: 'Chava Elizalde - CryptoWolf'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
+    url: 'https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/tecnologia/tec1.webp'
     alt: 'El logotipo completo de Astro.'
 tags: ["tecnologia"]
 category: Tecnología
 ---
 
-Esta semana, Advanced Micro Devices (AMD) ha experimentado un ascenso del 0.62%, con sus acciones mostrando un crecimiento constante desde que el fabricante de chips reveló planes ambiciosos para incursionar en la inteligencia artificial. Sin embargo, los inversores que estén considerando sumergirse deben tener precaución, ya que las acciones ahora parecen más costosas que las de Nvidia, que han aumentado un 2.06%.
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/tecnologia/tec1.webp" alt="Descripción de la imagen" width="100%">
+</p>
+
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Tecnología</a></span>
+
+
+<p style="font-size:2rem;">Avance de acciones de AMD tras su Día de la Inteligencia Artificial; ahora más costoso que Nvidia</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">Esta semana, Advanced Micro Devices (AMD) ha experimentado un ascenso del 0.62%, con sus acciones mostrando un crecimiento constante desde que el fabricante de chips reveló planes ambiciosos para incursionar en la inteligencia artificial. </p>
+
+Sin embargo, los inversores que estén considerando sumergirse deben tener precaución, ya que las acciones ahora parecen más costosas que las de Nvidia, que han aumentado un 2.06%.
 
 El miércoles, AMD anunció nuevos productos que podrían convertirlo en un competidor en el espacio de chips de inteligencia artificial frente a Nvidia, el jugador dominante en el sector. La compañía presentó una nueva línea de procesadores para portátiles diseñados para impulsar el rendimiento de las aplicaciones de inteligencia artificial hasta en un 60%, junto con chips para centros de datos que, según afirma, pueden superar en rendimiento a un producto comparable de Nvidia en hasta un 60% para algunas cargas de trabajo de inteligencia artificial.
 

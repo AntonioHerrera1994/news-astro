@@ -6,12 +6,23 @@ pubDate: 'Diciembre 18,2024'
 description: 'Buffett ha estado al mando de Berkshire desde 1965, pero una de sus mayores inversiones de todos los tiempos no ingresó a la cartera de acciones hasta 2016.'
 author: 'Chava Elizalde - CryptoWolf'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
+    url: 'https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/finanzas/finanzas2.webp'
     alt: 'El logotipo completo de Astro.'
 tags: ["finanzas"]
 category: Finanzas
 ---
-Buffett ha estado al mando de Berkshire desde 1965, pero una de sus mayores inversiones de todos los tiempos no ingresó a la cartera de acciones hasta 2016. Ese fue el año en que Berkshire comenzó a construir una enorme participación en Apple (NASDAQ: AAPL), que rápidamente se convirtió en la mayor tenencia del conglomerado.
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/finanzas/finanzas2.webp" alt="Descripción de la imagen" width="100%">
+</p>
+
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Finanzas</a></span>
+
+
+<p style="font-size:2rem;">Warren Buffett está invertido en estas 2 acciones que pagan dividendos</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">Buffett ha estado al mando de Berkshire desde 1965, pero una de sus mayores inversiones de todos los tiempos no ingresó a la cartera de acciones hasta 2016. Ese fue el año en que Berkshire comenzó a construir una enorme participación en Apple (NASDAQ: AAPL), que rápidamente se convirtió en la mayor tenencia del conglomerado.</p>
 
 Buffett apuesta fuerte por Apple
 

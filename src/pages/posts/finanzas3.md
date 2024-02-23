@@ -6,12 +6,25 @@ pubDate: 'Noviembre 17,2024'
 description: 'El Banco de Israel ha presentado su evaluación sobre las implicaciones económicas de la guerra con Hamás.'
 author: 'Chava Elizalde - CryptoWolf'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
+    url: 'https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/finanzas/finanzas3.webp'
     alt: 'El logotipo completo de Astro.'
 tags: ["finanzas"]
 category: Finanzas
 ---
-El Banco de Israel ha presentado su evaluación sobre las implicaciones económicas de la guerra con Hamás. En lugar de recortar las tasas de interés, ha priorizado la estabilización de los mercados. Según el último informe del departamento de investigación del banco, se estima que el “efecto bruto” del conflicto en Israel es de 198 mil millones de shekels (53 mil millones de dólares), y más de la mitad se destinará a gastos de defensa.
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/finanzas/finanzas3.webp" alt="Descripción de la imagen" width="100%">
+</p>
+
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Finanzas</a></span>
+
+
+<p style="font-size:2rem;">Impacto de la guerra en Israel y su economía</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">El Banco de Israel ha presentado su evaluación sobre las implicaciones económicas de la guerra con Hamás. </p>
+
+En lugar de recortar las tasas de interés, ha priorizado la estabilización de los mercados. Según el último informe del departamento de investigación del banco, se estima que el “efecto bruto” del conflicto en Israel es de 198 mil millones de shekels (53 mil millones de dólares), y más de la mitad se destinará a gastos de defensa.
 
 Esta cifra supera las estimaciones previas de 180 mil millones de shekels para 2023-2024, lo que destaca el impacto significativo del conflicto. Como resultado de la crisis, el Banco de Israel ha ajustado a la baja sus proyecciones de crecimiento económico. Ahora se espera una expansión del Producto Interno Bruto (PIB) del 2% este año y el próximo, en comparación con las estimaciones anteriores de 2.3% en 2023 y 2.8% en 2024.
 
