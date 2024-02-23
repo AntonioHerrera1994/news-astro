@@ -5,14 +5,14 @@ import Footer from '../components/footer.astro';
 import MidleBanner from '../components/MidleBanner.astro';
 
 import '../styles/global.css';
-import '../styles/Analisispage.css';
+import '../styles/Cryptopage.css';
 
 const { pageTitle } = Astro.props;
 
-const Firstpost = await Astro.glob('../pages/posts/analisis-1.md');
-const Secondtpost = await Astro.glob('../pages/posts/analisis2.md');
-const Thirdpost = await Astro.glob('../pages/posts/analisis3.md');
-const Fourpost = await Astro.glob('../pages/posts/analisis4.md');
+const Firstpost = await Astro.glob('../pages/posts/crypto-1.md');
+const Secondtpost = await Astro.glob('../pages/posts/crypto2.md');
+const Thirdpost = await Astro.glob('../pages/posts/crypto3.md');
+const Fourpost = await Astro.glob('../pages/posts/crypto4.md');
 ---
 
 <html lang="en">
@@ -39,7 +39,7 @@ const Fourpost = await Astro.glob('../pages/posts/analisis4.md');
         <div class="banner-pw-grid">
 
             <div >
-                <h1>Análisis<br> Financiero</h1>
+                <h1>Crypto</h1>
                 <p>Entérate de las últimas noticias antes que nadie</p>
             </div>
 
@@ -50,7 +50,7 @@ const Fourpost = await Astro.glob('../pages/posts/analisis4.md');
 
         <section class="body-pw">
             <div class="body-pw-content">
-                <p class="breadcrumbs"> Inicio / Análisis Financiero</p>
+                <p class="breadcrumbs"> Inicio / Crypto</p>
 
             </div>
 
