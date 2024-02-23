@@ -6,13 +6,24 @@ pubDate: 'Febrero 09, 2024'
 description: 'Análisis del tipo de cambio'
 author: 'Plankton Editorial Team'
 image:
-    url: 'https://plankton.news/wp-content/uploads/2024/02/Crypto1.png'
+    url: 'https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/analisis/analisis6.webp'
     alt: 'Datos de ciclos pasados alrededor de los halvings'
 tags: ["analisis"]
 category: Análisis
 ---
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/analisis/analisis6.webp" alt="Descripción de la imagen" width="100%">
+</p>
 
-Análisis del tipo de cambio
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Análisis</a></span>
+
+
+<p style="font-size:2rem;">Análisis del tipo de cambio</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">Análisis del tipo de cambio</p>
+
 
 Tras el anuncio de la inflación en México, el peso mexicano registró pérdidas del 0.38%, situándose en 17.09 pesos por dólar. Se espera que el Banco de México (Banxico) tome una decisión sobre su política monetaria para mantener su tasa de referencia en 11.25%.
 

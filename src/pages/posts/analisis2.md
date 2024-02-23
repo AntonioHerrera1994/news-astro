@@ -11,8 +11,19 @@ image:
 tags: ["analisis"]
 category: Análisis
 ---
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/analisis/analisis2.webp" alt="Descripción de la imagen" width="100%">
+</p>
 
-Para este viernes 16 de febrero, Femsa Forward planea invertir 170,000 millones de pesos en México, además, las noticias de la jornada.
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Análisis</a></span>
+
+
+<p style="font-size:2rem;">Femsa Forward planea invertir 170,000 millones de pesos en México</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">Para este viernes 16 de febrero, Femsa Forward planea invertir 170,000 millones de pesos en México, además, las noticias de la jornada.</p>
+
 
 El mercado estadounidense cerró a la baja el día de hoy, con retrocesos liderados por los sectores de tecnología, telecomunicaciones y bienes de consumo. Al cierre de la sesión en Nueva York, el Dow Jones Industrial Average experimentó una caída del 0.37%, mientras que el S&P 500 retrocedió un 0.48% y el NASDAQ Composite descendió un 0.82%.
 

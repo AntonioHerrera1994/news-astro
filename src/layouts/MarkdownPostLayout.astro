@@ -1,6 +1,7 @@
 ---
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/footer.astro';
+import MidleBanner from '../components/MidleBanner.astro';
 const { frontmatter } = Astro.props;
 import '../styles/global.css';
 import '../styles/markdown.css';
@@ -33,13 +34,11 @@ const { pageTitle } = Astro.props;
             <Navigation />
     
             <div class="postcontent">
-                <img src={frontmatter.image} alt="" class="image"
-                 />
-                <h1>{frontmatter.title}</h1>
-                <p>{frontmatter.author}</p>
                 <slot />
             </div>
-        
+
+
+        <MidleBanner />
             <Footer />
             
             <script>

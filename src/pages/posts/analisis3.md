@@ -12,7 +12,20 @@ tags: ["analisis"]
 category: Análisis
 ---
 
-Para este jueves 15 de febrero, los precios del petróleo se mantienen estables, además, las noticias de la jornada.
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/analisis/analisis3.webp" alt="Descripción de la imagen" width="100%">
+</p>
+
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Análisis</a></span>
+
+
+<p style="font-size:2rem;">Los precios del petróleo se mantienen estables</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">Para este jueves 15 de febrero, los precios del petróleo se mantienen estables, además, las noticias de la jornada.</p>
+
+
 
 Los futuros de las acciones en Estados Unidos muestran un ligero aumento, indicando una recuperación gradual de Wall Street luego de la declinación al inicio de la semana. En esta línea, los contratos de futuros del Dow Jones señalan un crecimiento de 11 puntos, es decir, un 0.2%, mientras que los del S&P 500 aumentan en 35 puntos, equivalente al 0.2%. De manera similar, los contratos del Nasdaq 100 registran un avance de 82 puntos, representando un 0.2%.
 

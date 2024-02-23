@@ -1,4 +1,5 @@
 ---
+
 layout: ../../layouts/MarkdownPostLayout.astro
 
 title: 'Dos motivos claves por los cuales Bitcoin podría romper el récord de $69,000 antes del próximo halving'
@@ -6,12 +7,24 @@ pubDate: 'Febrero 19, 2024'
 description: 'Datos de ciclos pasados alrededor de los halvings y una herramienta clave de análisis técnico sugieren que el camino de menor resistencia es al alza.'
 author: 'Chava Elizalde - CryptoWolf'
 image:
-    url: 'https://plankton.news/wp-content/uploads/2024/02/Crypto1.png'
+    url: 'https://plankton.news/wp-content/uploads/2024/02/Plankton-News-Cover-8.webp'
     alt: 'Datos de ciclos pasados alrededor de los halvings'
 tags: ["crypto"]
 category: Crypto
 ---
-Datos de ciclos pasados alrededor de los halvings y una herramienta clave de análisis técnico sugieren que el camino de menor resistencia es al alza.
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/crypto/Crypto1.png" alt="Descripción de la imagen" width="100%">
+</p>
+
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Crypto</a></span>
+
+
+<p style="font-size:2rem;">Dos motivos claves por los cuales Bitcoin podría romper el récord de $69,000 antes del próximo halving</p>
+
+<p style="font-size:.9rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">Datos de ciclos pasados alrededor de los halvings y una herramienta clave de análisis técnico sugieren que el camino de menor resistencia es al alza.</p>
+
 
 Bitcoin (BTC) ha tenido unos meses espectaculares, con los toros ignorando un dólar estadounidense resurgente y los rendimientos del Tesoro para impulsar la principal criptomoneda al nivel más alto desde finales de 2021.
 

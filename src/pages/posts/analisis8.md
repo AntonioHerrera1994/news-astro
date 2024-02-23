@@ -6,12 +6,24 @@ pubDate: 'Febrero 08, 2024'
 description: 'Para este jueves 08 de febrero, BANXICO mantiene su tasa de interés interbancaria, además, las noticias de la jornada.'
 author: 'Plankton Editorial Team'
 image:
-    url: 'https://plankton.news/wp-content/uploads/2024/02/Crypto1.png'
+    url: 'https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/analisis/analisis8.webp'
     alt: 'Datos de ciclos pasados alrededor de los halvings'
 tags: ["analisis"]
 category: Análisis
 ---
-Para este jueves 08 de febrero, BANXICO mantiene su tasa de interés interbancaria, además, las noticias de la jornada.
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/analisis/analisis8.webp" alt="Descripción de la imagen" width="100%">
+</p>
+
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Análisis</a></span>
+
+
+<p style="font-size:2rem;">BANXICO mantiene su tasa de interés interbancaria</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">Para este jueves 08 de febrero, BANXICO mantiene su tasa de interés interbancaria, además, las noticias de la jornada.
+</p>
 
 En el primer mes del año, la inflación en México no dio tregua al mostrar una aceleración en comparación con diciembre y acumulando tres meses consecutivos de aumentos.
 

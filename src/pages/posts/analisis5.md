@@ -6,13 +6,25 @@ pubDate: 'Febrero 12, 2024'
 description: 'Para este lunes 12 de febrero, persiste la preocupación en torno a la economía estadounidense, además, las noticias de la jornada.'
 author: 'Plankton Editorial Team'
 image:
-    url: 'https://plankton.news/wp-content/uploads/2024/02/Crypto1.png'
+    url: 'https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/analisis/analisis5.webp'
     alt: 'Datos de ciclos pasados alrededor de los halvings'
 tags: ["analisis"]
 category: Análisis
 ---
 
-Para este lunes 12 de febrero, persiste la preocupación en torno a la economía estadounidense, además, las noticias de la jornada.
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/analisis/analisis5.webp" alt="Descripción de la imagen" width="100%">
+</p>
+
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Análisis</a></span>
+
+
+<p style="font-size:2rem;">Persiste la preocupación en torno a la economía estadounidense</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">Para este lunes 12 de febrero, persiste la preocupación en torno a la economía estadounidense, además, las noticias de la jornada.</p>
+
 
 Hoy los futuros de las acciones estadounidenses registran pocos cambios, aun así los mercados muestran cierta cautela a la espera de una semana de importantes datos económicos y resultados empresariales. Los contratos de futuros del Dow Jones descienden 47 puntos o un 0.1%, los del S&P 500 apenas registraron variaciones y finalmente los del Nasdaq 100 se apuntan hacia un alza de 11 puntos o un 0.1%.
 

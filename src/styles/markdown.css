@@ -1,8 +1,15 @@
 .postcontent{
+  background-color: #e8eadf;
     margin: 0 auto;
   overflow: hidden;
-  padding-right: 140px;
-  padding-left: 140px;
+  padding-right: 9rem;
+  padding-left: 9rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.postcontent h1{
+  text-align: center;
 }
 
 @media screen and (min-width:300px) and (max-width:800px) {

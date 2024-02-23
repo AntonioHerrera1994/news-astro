@@ -6,11 +6,24 @@ pubDate: 'Febrero 07, 2024'
 description: 'Para este miércoles 07 de febrero, perspectivas cautelosas del mercado de valores en México, además, las noticias de la jornada.'
 author: 'Plankton Editorial Team'
 image:
-    url: 'https://plankton.news/wp-content/uploads/2024/02/Crypto1.png'
+    url: 'https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/analisis/analisis9.webp'
     alt: 'Datos de ciclos pasados alrededor de los halvings'
 tags: ["analisis"]
 category: Análisis
 ---
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/analisis/analisis9.webp" alt="Descripción de la imagen" width="100%">
+</p>
+
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Análisis</a></span>
+
+
+<p style="font-size:2rem;">Perspectivas cautelosas del mercado de valores en México</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">Para este miércoles 07 de febrero, perspectivas cautelosas del mercado de valores en México, además, las noticias de la jornada.</p>
+
 Para este miércoles 07 de febrero, perspectivas cautelosas del mercado de valores en México, además, las noticias de la jornada.
 
 El escenario bursátil de hoy refleja un panorama mixto en la Bolsa Mexicana de Valores. Los índices cerraron a la baja, influenciados por las caídas en los sectores de salud, industria y telecomunicaciones. El IPC registró una ligera disminución del 0.04%, sin embargo, se observó un predominio de valores positivos sobre los negativos.

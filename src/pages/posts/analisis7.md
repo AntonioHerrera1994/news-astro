@@ -6,13 +6,24 @@ pubDate: 'Febrero 09, 2024'
 description: 'Para este viernes 09 de febrero, congreso de la Ciudad de México aprueba nuevas leyes de desarrollo urbano, además, las noticias de la jornada.'
 author: 'Plankton Editorial Team'
 image:
-    url: 'https://plankton.news/wp-content/uploads/2024/02/Crypto1.png'
+    url: 'https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/analisis/analisis7.webp'
     alt: 'Datos de ciclos pasados alrededor de los halvings'
 tags: ["analisis"]
 category: Análisis
 ---
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/analisis/analisis7.webp" alt="Descripción de la imagen" width="100%">
+</p>
 
-Para este viernes 09 de febrero, congreso de la Ciudad de México aprueba nuevas leyes de desarrollo urbano, además, las noticias de la jornada.
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Análisis</a></span>
+
+
+<p style="font-size:2rem;">Congreso de la Ciudad de México aprueba nuevas Leyes de Desarrollo Urbano</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">Para este viernes 09 de febrero, congreso de la Ciudad de México aprueba nuevas leyes de desarrollo urbano, además, las noticias de la jornada.
+</p>
 
 El mercado mexicano cerró con descensos el viernes, ya que los sectores materiales, industriales y de servicios de telecomunicaciones experimentaron retrocesos, lo que llevó a que el IPC cayera un 0.70% al finalizar la sesión. Además, hubo más valores en negativo que valores en positivo en la Bolsa Mexicana de Valores, con una diferencia de 121 frente a 104, y 20 valores no experimentaron cambios.
 

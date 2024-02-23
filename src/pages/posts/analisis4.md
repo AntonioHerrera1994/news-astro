@@ -6,11 +6,23 @@ pubDate: 'Febrero 16, 2024'
 description: 'Para este martes 13 de febrero, cifras del IPC superan las expectativas del consenso, además, las noticias de la jornada.'
 author: 'Plankton Editorial Team'
 image:
-    url: 'https://plankton.news/wp-content/uploads/2024/02/Crypto1.png'
+    url: 'https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/analisis/analisis4.webp'
     alt: 'Datos de ciclos pasados alrededor de los halvings'
 tags: ["analisis"]
 category: Análisis
 ---
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/analisis/analisis4.webp" alt="Descripción de la imagen" width="100%">
+</p>
+
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Análisis</a></span>
+
+
+<p style="font-size:2rem;">Cifras del IPC superan las expectativas del consenso</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">Para este martes 13 de febrero, cifras del IPC superan las expectativas del consenso, además, las noticias de la jornada.</p>
 
 Las cifras de IPC en Estados Unidos correspondientes al mes de enero han sido más altas de lo que esperaba el consenso. La inflación en término interanual subió al 3.1%, menos con respecto a diciembre, aunque más alto que el 2.9% esperado. En término mensual subió un 0.3% en comparación con el 0.2% del mes de diciembre.
 
