@@ -34,8 +34,8 @@ const { pageTitle } = Astro.props;
 	</head>
 	<body>
 		
+	
 		<Navigation />
-		
 		<Mainhead />
 		<Leido />	
 		<PlanktonW />
@@ -48,9 +48,7 @@ const { pageTitle } = Astro.props;
 		<Footer />
 		
 		<script>
-			document.querySelector('.hamburger').addEventListener('click', () => {
-			  document.querySelector('.nav-links').classList.toggle('expanded');
-			});
+			import "../scripts/menu.js";
 		  </script>
 	</body>
   </html>
