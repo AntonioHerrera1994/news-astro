@@ -83,6 +83,21 @@ padding-left:10px;
 padding-right: 10px;
   }
 
+  .pw-text-grid{
+    grid-template-columns: repeat(1,minmax(0,1fr));
+        padding-left:10px;
+        padding-right: 10px; 
+        padding-top: 0;
+        gap:0;
+}
+
+.pw-text-grid h3{
+  text-align: left;
+  margin-top: -.5rem;
+}
+
+
+
  .pw-pst p{
   column-count: 1;
 column-gap: 20px;

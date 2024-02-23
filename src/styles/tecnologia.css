@@ -114,6 +114,20 @@
         width: auto;
     }
 
+    .tec-text-grid{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        padding-left:10px;
+        padding-right: 10px; 
+        padding-top: 0;
+        gap:0;
+    }
+
+    .tec-text-grid h3{
+        text-align: left;
+        margin-top: -.5rem;
+    }
+    
+
     .tec-first-image{
         height: 230px;
         width: 100%;

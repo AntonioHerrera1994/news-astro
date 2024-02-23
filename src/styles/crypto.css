@@ -162,6 +162,20 @@ margin-left:80px ;
         width: auto;
       }
 
+      .crypto-text-grid{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        padding-left:10px;
+        padding-right: 10px; 
+        padding-top: 0;
+        gap:0;
+    }
+
+    .crypto-text-grid h3{
+        text-align: left;
+        margin-top: -.5rem;
+    }
+
+
       .crypto-post-grid{
         
         padding-left:10px;
