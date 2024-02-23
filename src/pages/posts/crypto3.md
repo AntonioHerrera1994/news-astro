@@ -6,12 +6,23 @@ pubDate: ' Febrero 12, 2024'
 description: 'La fiebre de los ETFs de Bitcoin está en pleno apogeo. Según el proveedor de datos en cadena CryptoQuant.'
 author: 'Chava Elizalde - CryptoWolf'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
+    url: 'https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/crypto/Flujos-de-Bitcoin.webp'
     alt: 'El logotipo completo de Astro.'
 tags: ["Crypto"]
 category: Crypto
 ---
-La fiebre de los ETFs de Bitcoin está en pleno apogeo. Según el proveedor de datos en cadena CryptoQuant, la tendencia actual de entradas relacionadas con los fondos de inversión cotizados (ETFs) podría llevar los precios de Bitcoin a nuevos máximos históricos este año.
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/crypto/Flujos-de-Bitcoin.webp" alt="Descripción de la imagen" width="100%">
+</p>
+
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Crypto</a></span>
+
+
+<p style="font-size:2rem;">Flujos de Bitcoin ETFs podrían impulsar los precios de BTC a $112K este año: CryptoQuant</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">La fiebre de los ETFs de Bitcoin está en pleno apogeo. Según el proveedor de datos en cadena CryptoQuant, la tendencia actual de entradas relacionadas con los fondos de inversión cotizados (ETFs) podría llevar los precios de Bitcoin a nuevos máximos históricos este año.</p>
 
 Los precios de Bitcoin podrían alcanzar los $112,000 este año si la presión de compra actual de los ETFs continúa. CryptoQuant informó el domingo que los precios de Bitcoin podrían rozar los $112,000 este año si la tendencia actual de entradas relacionadas con los ETFs de intercambio de spot continúa.
 

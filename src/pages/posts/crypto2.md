@@ -6,12 +6,24 @@ pubDate: ' Febrero 15, 2024'
 description: 'Direcciones ilícitas enviaron $22.2 mil millones en criptomonedas a servicios en 2023, una disminución desde $31.5 mil millones en 2022.'
 author: 'Chava Elizalde - CryptoWolf'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
+    url: 'https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/crypto/Crypto2.webp'
     alt: 'El logotipo completo de Astro.'
 tags: ["astro", "bloguear", "aprender en público"]
 category: Crypto
 ---
-Direcciones ilícitas enviaron $22.2 mil millones en criptomonedas a servicios en 2023, una disminución desde $31.5 mil millones en 2022.
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/crypto/Crypto2.webp" alt="Descripción de la imagen" width="100%">
+</p>
+
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Crypto</a></span>
+
+
+<p style="font-size:2rem;">Disminución del lavado de dinero en criptomonedas en un 30% el último año, según Chainalysis</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">Direcciones ilícitas enviaron $22.2 mil millones en criptomonedas a servicios en 2023, una disminución desde $31.5 mil millones en 2022.</p>
+
 La actividad ilícita en criptomonedas disminuyó significativamente el año pasado, en parte debido al menor volumen de trading de criptomonedas y en parte porque actores amenazantes sofisticados como el Grupo Lazarus están desarrollando métodos para evadir la detección, según indicó Chainalysis en su informe anual sobre el lavado de dinero en criptomonedas.
 
 Chainalysis informó que se lavaron $22.2 mil millones a través de criptomonedas en 2023, frente a los $31.5 mil millones del año anterior. La disminución fue más pronunciada que la reducción en los volúmenes de transacciones, lo que sugiere que factores más allá del simple descenso del mercado general podrían haber contribuido a la reducción de la actividad ilícita. Las cifras sugieren que solo alrededor del 1% de todo el lavado de dinero se lleva a cabo con criptomonedas. El valor de todos los fondos ilícitos lavados es de alrededor de $2 billones al año, escribió Deloitte en un informe de junio de 2023.

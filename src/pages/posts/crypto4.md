@@ -6,12 +6,24 @@ pubDate: ' Febrero 08, 2024'
 description: 'La congelación de la blockchain desencadenó una caída en el token SOL de Solana.'
 author: 'Chava Elizalde - CryptoWolf'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
+    url: 'https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/crypto/Solana.webp'
     alt: 'El logotipo completo de Astro.'
 tags: ["Crypto"]
 category: Crypto
 ---
-Solana, la blockchain de baja latencia que ha experimentado una explosión de actividad en los últimos meses, experimentó una interrupción de aproximadamente cinco horas el pasado martes.
+<p style = 'text-align:center;'>
+<image src="https://raw.githubusercontent.com/AntonioHerrera1994/news-astro/master/src/assets/crypto/Solana.webp" alt="Descripción de la imagen" width="100%">
+</p>
+
+<span><a href="/" style="text-decoration:none;color:#0F1416">Inicio</a> / <a href="/Crypto" style="text-decoration:none;color:#0F1416">Crypto</a></span>
+
+
+<p style="font-size:2rem;">Solana se recupera después de una importante interrupción de 5 horas</p>
+
+<p style="font-size:.8rem;text-align:left;font-weight: bold;">Chava Elizalde - CryptoWolf</p>
+
+<p style="font-weight: bold;">Solana, la blockchain de baja latencia que ha experimentado una explosión de actividad en los últimos meses, experimentó una interrupción de aproximadamente cinco horas el pasado martes.</p>
+
 
 El token SOL de Solana cayó desde alrededor de $96 antes de que comenzara el problema hasta por debajo de $94 mientras el incidente estaba en curso, pero desde entonces ha recuperado casi todas esas pérdidas.
 
