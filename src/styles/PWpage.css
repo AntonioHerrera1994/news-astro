@@ -159,6 +159,26 @@
         width: auto;
     }
 
+    .banner-pw-grid{
+      margin-top: -3.3rem;
+      display:grid;
+      grid-template-columns: repeat(1,minmax(0,1fr));
+         
+         
+    }
+
+    .banner-pw-grid h1{
+        font-size: 5rem;
+        color: #eae8df;
+        text-align: center;
+    }
+    
+    .banner-pw-grid p{
+        font-size: 1rem;
+        color: #eae8df;
+        text-align: center;
+    }
+
     .tec-first-image{
         height: 230px;
         width: 100%;
@@ -188,6 +208,16 @@
 /*************** Pantalla grande ***************/
 
 @media only screen and (min-width:1400px) {
+
+    .banner-pwt{
+    
+        margin: 0 auto;
+        overflow: hidden;
+        padding-right: 90px;
+        padding-left: 90px;
+       
+    }
+
     .tec-cont{
         margin: 0 auto;
       overflow: hidden;

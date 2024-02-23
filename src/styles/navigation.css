@@ -8,7 +8,6 @@
     background-color: #0F1416;
     position: sticky;
     top: 0px;
-   
     z-index: 1;
 }
 
@@ -32,6 +31,7 @@
 .hamburger {
   padding-right: 20px;
   cursor: pointer;
+ 
 }
 
 .hamburger .line {
@@ -40,6 +40,7 @@
   height: 2px;
   margin-bottom: 7px;
   background-color: #DEE1D4;
+  
 }
 
 
@@ -49,6 +50,7 @@
   background-color: #DEE1D4;
   display: none;
   margin: 0;
+  
 }
 
 .nav-links a {
@@ -68,6 +70,7 @@ color: #97AAA0;
 
 .expanded {
   display: unset;
+  
 }
 
 .nav-links .busqueda-menu{
@@ -77,6 +80,7 @@ color: #97AAA0;
   border-width: 1px;
   border-color: #DEE1D4;
   border-radius: 25px;
+  
 }
 
 
@@ -155,7 +159,7 @@ color: #97AAA0;
       top: 100px;
       margin-top: 15px;
       left: 0;
-      position: absolute;
+      position: fixed;
       padding: 10px 100px;
       background-color: #DEE1D4;
      
@@ -232,6 +236,7 @@ color: #97AAA0;
 
   
     .nav-links {
+      
       margin-left: -22rem;
       margin-top: -3px;
       display: block;
