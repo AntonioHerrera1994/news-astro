@@ -6,6 +6,10 @@
     margin-top: -8px;
     overflow: hidden;
     background-color: #0F1416;
+    position: sticky;
+    top: 0px;
+   
+    z-index: 1;
 }
 
 .head-grid{
