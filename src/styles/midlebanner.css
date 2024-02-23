@@ -74,11 +74,9 @@
     .midle-grid{
         grid-template-columns: repeat(1,minmax(0,1fr));
         padding-left:10px;
-        padding-right: 10px; 
+        padding-right: 8rem; 
         padding-top: 8rem;
         width: auto;
-        
-        background-size: cover;
         background-position: right 100% bottom 80%;
     }
 
@@ -86,6 +84,9 @@
         margin: auto;
     }
 
+    br{
+        display: none;
+    }
     .midle-grid h1{
         font-size: 2rem;
         margin:0rem 1rem;
