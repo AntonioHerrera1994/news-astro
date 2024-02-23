@@ -41,7 +41,7 @@
     float: left;
     display: block;
     color: #DEE1D4;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 16px;
@@ -76,7 +76,7 @@
         gap: 2rem;
   }
   
-  .footer2-grid p{
+  .footer2-grid{
     font-family: 'Albert Sans', sans-serif;
     text-align: justify;
     color: #DEE1D4;
@@ -90,10 +90,15 @@
     color: #DEE1D4;
   }
 
-  .terminos{
-    text-align: center!important;
+  .terminos p{
+    text-align: center;
+    color: #DEE1D4;
   }
   
+  .suscribe p{
+    text-align: center;
+    color: #DEE1D4;
+  }
   @media screen and (min-width:300px) and (max-width:800px) {
     .footer-cont{
       width: auto;
@@ -118,26 +123,35 @@
     .footer-img{
       width: 100%;
       height: 100%;
-      float: center;
+      float: left;
+      margin-top: 1rem;
     }
 
     .footnav a {
       float: center;
       display: block;
       color: #DEE1D4;
-      text-align: center;
+      text-align: left;
       text-decoration: none;
       font-size: 16px;
-      margin-left: 1.2rem;
+      
       
     }
 
-    .terminos{
-      text-align: center;
+    .terminos p{
+      text-align: left;
     }
 
     .footer2-grid{
-      text-align: center!important;
+      text-align: left;
+    }
+
+    .iconos{
+      text-align: left;
+    }
+
+    .suscribe p{
+      text-align: left;
     }
 
     }
